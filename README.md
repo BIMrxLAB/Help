@@ -13,6 +13,7 @@ The repo stores all versions of the help for all products and languages. The roo
         + Revit
             + version
                 + ENU
+    + readme
 
 The `docs` folder is the root level of the website at [https://help.bimrx.com](https://help.bimrx.com)
 
