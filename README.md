@@ -22,10 +22,14 @@ If you wish to create additional root level web pages such as a `faq.html` you c
 
 1. Export updated Help from HelpNDoc to a new local folder of the product/version/language
 1. Clone this repo locally using your favorite Git Tool. [GitHub Desktop](https://desktop.github.com/) is specifically geared toward GitHub, avaliable on several platforms and very easy to use. 
+    * Select `File -> Clone Repository`
+![Commit](./readme/clone.png)
 1. Create a new corresponding folder for the help update using the **(product/version/language**) tuple structure.
 1. Copy the exported HelpNDoc HTML files over to their destination in the repo locally.
 1. Add a comment about what changes you made and commit locally.
+![Commit](./readme/commit.png)
 1. Push your changes to the remote repo on GitHub.
+![Commit](./readme/push.png)
 
 ## Branches
 
