@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="ExtractandUpdate.html">Extract and Update</a></li><li><a href="TheBIMrxExcelAssistant.html">The BIMrx Excel Assistant</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="TheBIMrxExcelAssistant.html" title="The BIMrx Excel Assistant" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="TheBIMrxExcelAssistant.html" title="The BIMrx Excel Assistant" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="InvokingTheExcelAssitant.html" title="Invoking The Excel Assitant" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="TheBIMrxExcelAssistant.html" title="The BIMrx Excel Assistant" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="TheBIMrxExcelAssistant.html" title="The BIMrx Excel Assistant" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="InvokingTheExcelAssitant.html" title="Invoking The Excel Assitant" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,17 +298,15 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts27">To activate the Excel Assistant, you must choose to export the Revit data as an "Excel Macro Enabled (*.xlsm)" Excel file.</span></p>
+<p class="rvps2"><span class="rvts31">To activate the Excel Assistant, you must choose to export the Revit data as an "Excel Macro Enabled (*.xlsm)" Excel file.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">When choosing the file name for your data export, select </span><span class="rvts27">*.xlsm</span><span class="rvts6"> in the </span><span class="rvts27">Save as type</span><span class="rvts6"> field of the </span><span class="rvts28">Save As</span><span class="rvts6"> dialog:</span></p>
+<p class="rvps2"><span class="rvts6">When choosing the file name for your data export, select </span><span class="rvts31">*.xlsm</span><span class="rvts6"> in the </span><span class="rvts31">Save as type</span><span class="rvts6"> field of the </span><span class="rvts32">Save As</span><span class="rvts6"> dialog:</span></p>
 <p class="rvps2"><img width="600" height="301" alt="" style="padding : 1px;" src="lib/NewItem30.png"></p>
-<p class="rvps2"><span class="rvts36"><br/></span></p>
-<p class="rvps2"><span class="rvts36">The resulting output file will contain the </span><span class="rvts37">BIMrx – Excel Assistant</span><span class="rvts36"> macros.</span></p>
+<p class="rvps2"><span class="rvts40"><br/></span></p>
+<p class="rvps2"><span class="rvts40">The resulting output file will contain the </span><span class="rvts41">BIMrx – Excel Assistant</span><span class="rvts40"> macros.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts36">Since result of the export is a macro enabled Excel file (.xlsm), permission must be provided when opening it in Excel to operate the macros by clicking </span><span class="rvts37">Enable Content</span><span class="rvts36">:</span></p>
-<p class="rvps2"><img width="600" height="219" alt="" style="padding : 1px;" src="lib/NewItem29.png"></p>
-<p></p>
+<p class="rvps2"><span class="rvts40">Since result of the export is a macro enabled Excel file (.xlsm), permission must be provided when opening it in Excel to operate the macros by clicking </span><span class="rvts41">Enable Content</span><span class="rvts40">:</span></p>
+<p class="rvps2"><img width="600" height="219" alt="" style="padding : 1px;" src="lib/NewItem29.png"><span class="rvts6"></span></p>
 
             </div>
             
@@ -363,7 +362,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

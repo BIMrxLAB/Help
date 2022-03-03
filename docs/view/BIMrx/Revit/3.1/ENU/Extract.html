@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="ExtractandUpdate.html">Extract and Update</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="ExtractandUpdate.html" title="Extract and Update" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="QuickSteps.html" title="Quick Steps" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ExportSettings.html" title="Export Settings" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ExtractandUpdate.html" title="Extract and Update" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="QuickSteps.html" title="Quick Steps" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ExportSettings.html" title="Export Settings" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,22 +298,20 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">With the help of the </span><span class="rvts27">Extract</span><span class="rvts6"> button., the user has the ability to export data from Revit into an Excel file for easy modification which could later be imported back into the Revit project. &nbsp;The user has the ability to extract data from a currently selected set of elements, or direct from a schedule.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">With the help of the </span><span class="rvts31">Extract</span><span class="rvts6"> button., the user has the ability to export data from Revit into an Excel file for easy modification which could later be imported back into the Revit project. &nbsp;The user has the ability to extract data from a currently selected set of elements, or direct from a schedule.&nbsp;</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">In Revit:&nbsp;</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li style="margin-left: 0px" class="rvps10"><span class="rvts6">To extract a selection, selection some Revit elements. To extract a Revit schedule, create the schedule in Revit.&nbsp;</span></li>
- <li style="margin-left: 0px" class="rvps10"><span class="rvts6">Navigate to </span><span class="rvts27">BIMrx</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts27">BIMrx Core</span><span class="rvts6"> panel &gt;&gt; </span><span class="rvts27">Extract </span><span class="rvts6">command:</span></li>
+ <li style="margin-left: 0px" class="rvps10"><span class="rvts6">Navigate to </span><span class="rvts31">BIMrx</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts31">BIMrx Core</span><span class="rvts6"> panel &gt;&gt; </span><span class="rvts31">Extract </span><span class="rvts6">command:</span></li>
 </ul>
 <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1049.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">BIMrx opens the </span><span class="rvts27">BIMrx - Export Settings</span><span class="rvts6"> dialog:</span></p>
+<p class="rvps2"><span class="rvts6">BIMrx opens the </span><span class="rvts31">BIMrx - Export Settings</span><span class="rvts6"> dialog:</span></p>
 <p class="rvps2"><img width="300" height="396" alt="" style="padding : 1px;" src="lib/NewItem13.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><a class="rvts11" href="ExportSettings.html">Export Settings</a></p>
-<p class="rvps2"><a class="rvts11" href="ExtractedExcelFileFormat.html">Extracted Excel File Format</a></p>
-<p></p>
+<p class="rvps2"><a class="rvts11" href="ExtractedExcelFileFormat.html">Extracted Excel File Format</a><span class="rvts6"></span></p>
 
             </div>
             
@@ -368,7 +367,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

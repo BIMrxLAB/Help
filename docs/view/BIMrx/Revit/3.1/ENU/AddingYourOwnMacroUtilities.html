@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="ExtractandUpdate.html">Extract and Update</a></li><li><a href="TheBIMrxExcelAssistant.html">The BIMrx Excel Assistant</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="TheBIMrxExcelAssistant.html" title="The BIMrx Excel Assistant" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="InvokingTheExcelAssitant.html" title="Invoking The Excel Assitant" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Imprint1.html" title="Imprint" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="TheBIMrxExcelAssistant.html" title="The BIMrx Excel Assistant" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="InvokingTheExcelAssitant.html" title="Invoking The Excel Assitant" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Imprint1.html" title="Imprint" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,14 +298,12 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">Additional macros can be added to the </span><span class="rvts27">BIMrx</span><span class="rvts6"> export template by editing the macro enabled Excel export template file named “</span><span class="rvts27">BIMrx Template.xlsm”</span><span class="rvts6">. Macros you add to this template will be part of all future </span><span class="rvts27">BIMrx</span><span class="rvts6"> generated exports.</span></p>
+<p class="rvps2"><span class="rvts6">Additional macros can be added to the </span><span class="rvts31">BIMrx</span><span class="rvts6"> export template by editing the macro enabled Excel export template file named “</span><span class="rvts31">BIMrx Template.xlsm”</span><span class="rvts6">. Macros you add to this template will be part of all future </span><span class="rvts31">BIMrx</span><span class="rvts6"> generated exports.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">This file can be found in the plugins installation folder under: </span><span class="rvts27">C:\ProgramData\Autodesk\Revit\Addins\</span><span class="rvts49">20XX</span><span class="rvts27">\Microdesk.BIMrx</span></p>
+<p class="rvps2"><span class="rvts6">This file can be found in the plugins installation folder under: </span><span class="rvts31">C:\ProgramData\Autodesk\Revit\Addins\</span><span class="rvts53">20XX</span><span class="rvts31">\Microdesk.BIMrx</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">Where </span><span class="rvts49">20XX</span><span class="rvts47"> </span><span class="rvts6">has one of the following values, depending on the Revit version BIMrx was installed for: 2018, 2019, 2020, 2021, etc.</span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<p></p>
+<p class="rvps2"><span class="rvts6">Where </span><span class="rvts53">20XX</span><span class="rvts51"> </span><span class="rvts6">has one of the following values, depending on the Revit version BIMrx was installed for: 2018, 2019, 2020, 2021, etc.</span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
 
             </div>
             
@@ -360,7 +359,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="BIMrxCore.html" title="BIMrx Core" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="AlignBottom.html" title="Align Bottom" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Prerequisites.html" title="Prerequisites" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="BIMrxCore.html" title="BIMrx Core" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="AlignBottom.html" title="Align Bottom" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Prerequisites.html" title="Prerequisites" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,18 +298,16 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
 <p class="rvps2"><img width="402" height="95" alt="" style="padding : 1px;" src="lib/NewItem1059.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">The BIMrx </span><span class="rvts27">Copy Monitor Plus</span><span class="rvts6"> commands are a re-imagining of the built-in Revit feature “Copy/Monitor.” They allow Revit users to select linked lighting fixtures, electrical fixtures, or mechanical equipment and create a counterpart in the active document. This newly created element can be updated if its linked element changes location or type. In addition, the Copy Monitor Plus suite of commands include the ability to update and to monitor an element with a new linked element host and highlight all copy monitor created elements.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The BIMrx </span><span class="rvts31">Copy Monitor Plus</span><span class="rvts6"> commands are a re-imagining of the built-in Revit feature “Copy/Monitor.” They allow Revit users to select linked lighting fixtures, electrical fixtures, or mechanical equipment and create a counterpart in the active document. This newly created element can be updated if its linked element changes location or type. In addition, the Copy Monitor Plus suite of commands include the ability to update and to monitor an element with a new linked element host and highlight all copy monitor created elements.&nbsp;</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><a class="rvts11" href="Prerequisites.html">Prerequisites</a></p>
 <p class="rvps2"><a class="rvts11" href="CMManager.html">CM+ Manager</a></p>
 <p class="rvps2"><a class="rvts11" href="CMColorToggle.html">CM+ Color Toggle</a></p>
 <p class="rvps2"><a class="rvts11" href="CMUpdateHost.html">CM+ Update Host</a></p>
 <p class="rvps2"><a class="rvts11" href="CMCopy.html">CM+ Copy</a></p>
-<p class="rvps2"><a class="rvts11" href="CMUpdate.html">CM+ Update</a></p>
-<p></p>
+<p class="rvps2"><a class="rvts11" href="CMUpdate.html">CM+ Update</a><span class="rvts6"></span></p>
 
             </div>
             
@@ -364,7 +363,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

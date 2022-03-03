@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxFabrication.html">BIMrx Fabrication</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="BIMrxFabrication.html" title="BIMrx Fabrication" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ElementSelection.html" title="Element Selection" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RelatedSharedParameters1.html" title="Related Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="BIMrxFabrication.html" title="BIMrx Fabrication" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ElementSelection.html" title="Element Selection" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RelatedSharedParameters1.html" title="Related Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,40 +298,38 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">The </span><span class="rvts27">Hanger Array</span><span class="rvts6"> command places hangers for </span><span class="rvts27">Duct, Pipe, Conduit and Cable Tray</span><span class="rvts6"> runs. It works on both Standard Revit Systems elements and Fabrication items.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The </span><span class="rvts31">Hanger Array</span><span class="rvts6"> command places hangers for </span><span class="rvts31">Duct, Pipe, Conduit and Cable Tray</span><span class="rvts6"> runs. It works on both Standard Revit Systems elements and Fabrication items.&nbsp;</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">Prerequisites:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts6">A valid Shared Parameter File must be appointed.</span></li>
- <li class="rvps2"><span class="rvts27">Hanger Array Configuration</span><span class="rvts6"> command must have been used to set up appropriate Setting-Service Associations</span></li>
- <li class="rvps2"><span class="rvts6">At least one compatible hanger family must exist in the </span><span class="rvts27">BIMrx Families</span><span class="rvts6"> folder.&nbsp;</span></li>
+ <li class="rvps2"><span class="rvts31">Hanger Array Configuration</span><span class="rvts6"> command must have been used to set up appropriate Setting-Service Associations</span></li>
+ <li class="rvps2"><span class="rvts6">At least one compatible hanger family must exist in the </span><span class="rvts31">BIMrx Families</span><span class="rvts6"> folder.&nbsp;</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
   <li class="rvps2"><span class="rvts6">Location of the folder: C:\ProgramData\Microdesk\BIMrx Families\&lt;IMPERIAL or Metric&gt;\</span></li>
   <li class="rvps2"><span class="rvts6">See </span><span class="rvts11">Hanger Families</span><span class="rvts6"> for more information on loading the two simple hangers that BIMrx supplies.</span></li>
-  <li style="margin-left: 0px" class="rvps10"><span class="rvts6">Hanger families used in the </span><span class="rvts27">Hanger Array</span><span class="rvts6"> command will only work with standard Revit Systems elements of duct and pipe.</span></li>
+  <li style="margin-left: 0px" class="rvps10"><span class="rvts6">Hanger families used in the </span><span class="rvts31">Hanger Array</span><span class="rvts6"> command will only work with standard Revit Systems elements of duct and pipe.</span></li>
  </ul>
 </ul>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">In Revit:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">Navigate to the </span><span class="rvts27">BIMrx</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts27">BIMrx Fabrication</span><span class="rvts6"> panel &gt;&gt; </span><span class="rvts27">Hanger</span><span class="rvts6"> </span><span class="rvts27">Array</span><span class="rvts6"> command.&nbsp;</span></li>
+ <li class="rvps2"><span class="rvts6">Navigate to the </span><span class="rvts31">BIMrx</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts31">BIMrx Fabrication</span><span class="rvts6"> panel &gt;&gt; </span><span class="rvts31">Hanger</span><span class="rvts6"> </span><span class="rvts31">Array</span><span class="rvts6"> command.&nbsp;</span></li>
 </ul>
 <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1321.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">After user has clicked on the </span><span class="rvts27">Hanger Array</span><span class="rvts6"> button, user will be prompted to select </span><span class="rvts27">Duct, Pipe, Conduit and Cable Tray</span><span class="rvts6"> runs. User can also select desired runs before clicking the </span><span class="rvts27">Hanger Array</span><span class="rvts6"> button and start this command.</span></p>
+<p class="rvps2"><span class="rvts6">After user has clicked on the </span><span class="rvts31">Hanger Array</span><span class="rvts6"> button, user will be prompted to select </span><span class="rvts31">Duct, Pipe, Conduit and Cable Tray</span><span class="rvts6"> runs. User can also select desired runs before clicking the </span><span class="rvts31">Hanger Array</span><span class="rvts6"> button and start this command.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">The command will now place hangers according to the configurations for each Service that has been set up.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<h5 class="rvps11"><span class="rvts0"><span class="rvts29">Notes:&nbsp;</span></span></h5>
-<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
- <li value="1" class="rvps2"><span class="rvts6">If users have selected runs in Services not configured in the </span><span class="rvts27">Hanger Array Configuration</span><span class="rvts6"> command, a dialog will display to notify the user:</span></li>
+<h5 class="rvps11"><span class="rvts0"><span class="rvts33">Notes:&nbsp;</span></span></h5>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2"><span class="rvts6">If users have selected runs in Services not configured in the </span><span class="rvts31">Hanger Array Configuration</span><span class="rvts6"> command, a dialog will display to notify the user:</span></li>
 </ol>
 <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1320.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<p></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
 
             </div>
             
@@ -386,7 +385,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="AdvancedParameterManager.html">Advanced Parameter Manager</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="AdvancedParameterManager.html" title="Advanced Parameter Manager" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="SPFileandGroupManagement.html" title="SP File and Group Management" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ParameterTransfer.html" title="Parameter Transfer" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AdvancedParameterManager.html" title="Advanced Parameter Manager" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="SPFileandGroupManagement.html" title="SP File and Group Management" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ParameterTransfer.html" title="Parameter Transfer" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,21 +298,19 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
 <p class="rvps2"><span class="rvts6">If the current Shared Parameter File designated for Revit is Read-only, whether browsed from Manage Tab-&gt;Shared Parameters Button or from Advanced Parameter Manager, the APM will notify the user accordingly, and part of the features of APM will be disabled. User will be advised to address the accessibility issue of the Shared Parameter File first before using those features in APM.</span></p>
 <p class="rvps2"><span class="rvts6">a. The warning message each time a Read-only Shared Parameter File is loaded by APM:</span></p>
 <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem730.png"></p>
-<p class="rvps2"><span class="rvts58"><br/></span></p>
+<p class="rvps2"><span class="rvts62"><br/></span></p>
 <p class="rvps2"><span class="rvts6">b. Some features in APM are turned off:</span></p>
 <p class="rvps2"><img width="621" height="346" alt="" style="padding : 1px;" src="lib/NewItem729.png"></p>
 <p class="rvps2"><span class="rvts6">The disabled features include:</span></p>
-<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: decimal;">
- <li value="1" style="margin-left: 0px; text-indent: 0px" class="rvps30"><span class="rvts21">Active Shared Parameter Group drop-down list</span></li>
- <li value="2" style="margin-left: 0px; text-indent: 0px" class="rvps30"><span class="rvts21">Renaming, Adding, Removing Active Shared Parameter Group</span></li>
- <li value="3" style="margin-left: 0px; text-indent: 0px" class="rvps30"><span class="rvts21">Adding and Deleting Rows from the list on the right-side panel</span></li>
- <li value="4" style="margin-left: 0px; text-indent: 0px" class="rvps30"><span class="rvts21">Creating Shared Parameters</span></li>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps29"><span class="rvts25">Active Shared Parameter Group drop-down list</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps29"><span class="rvts25">Renaming, Adding, Removing Active Shared Parameter Group</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps29"><span class="rvts25">Adding and Deleting Rows from the list on the right-side panel</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps29"><span class="rvts25">Creating Shared Parameters</span><span class="rvts25"></span></li>
 </ol>
-<p></p>
 
             </div>
             
@@ -367,7 +366,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

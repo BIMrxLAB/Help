@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="AdvancedParameterManager.html">Advanced Parameter Manager</a></li><li><a href="ManageSharedParameters.html">Manage Shared Parameters</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="ManageSharedParameters.html" title="Manage Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="CreateSharedParameters.html" title="Create Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SyncDBProperties.html" title="Sync DB Properties" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ManageSharedParameters.html" title="Manage Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="CreateSharedParameters.html" title="Create Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SyncDBProperties.html" title="Sync DB Properties" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,8 +298,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">The </span><span class="rvts27">Power Manage Mode</span><span class="rvts6"> is intended to make modifications to all properties of any existing Shared Parameters, including deleting, renaming, changing categories etc for an existing shared parameter. Currently only the deleting functionality is enabled.</span></p>
+<p class="rvps2"><span class="rvts6">The </span><span class="rvts31">Power Manage Mode</span><span class="rvts6"> is intended to make modifications to all properties of any existing Shared Parameters, including deleting, renaming, changing categories etc for an existing shared parameter. Currently only the deleting functionality is enabled.</span></p>
 <p class="rvps2"><span class="rvts6">a. When “Power Manage Mode” radio button is checked, the right side panel of APM Main Window is highlighted, indicating user has activated an advanced mode that requires extra caution.</span></p>
 <p class="rvps2"><img width="826" height="436" alt="" style="padding : 1px;" src="lib/NewItem1289.png"></p>
 <p class="rvps2"><span class="rvts6">1.1 Deleting Existing Shared Parameters in Power Manage Mode</span></p>
@@ -306,9 +306,8 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem719.png"></p>
 <p class="rvps2"><span class="rvts6">b. Click “OK” and continue, user will be prompted on the specificities of deleting the selected Shared Parameters:</span></p>
 <p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem718.png"></p>
-<p class="rvps2"><span class="rvts58"><br/></span></p>
-<p class="rvps2"><span class="rvts6">c. After user has made a selection, hit “OK”, then Shared Parameters will be deleted from the selected locations.</span></p>
-<p></p>
+<p class="rvps2"><span class="rvts62"><br/></span></p>
+<p class="rvps2"><span class="rvts6">c. After user has made a selection, hit “OK”, then Shared Parameters will be deleted from the selected locations.</span><span class="rvts6"></span></p>
 
             </div>
             
@@ -364,7 +363,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

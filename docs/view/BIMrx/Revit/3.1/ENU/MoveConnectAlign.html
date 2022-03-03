@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxMEP.html">BIMrx MEP</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="BIMrxMEP.html" title="BIMrx MEP" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="MoveConnect.html" title="Move Connect" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Alignin3D.html" title="Align in 3D" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="BIMrxMEP.html" title="BIMrx MEP" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="MoveConnect.html" title="Move Connect" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Alignin3D.html" title="Align in 3D" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,12 +298,11 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">With the help of the </span><span class="rvts27">Move Connect Align </span><span class="rvts6">command, the user is able to click on a destination MEP family, and then on an MEP family you'd like to move. The second family is moved so that the two closest connectors meet, align and connect. This command will work in 2D and 3D views.</span></p>
+<p class="rvps2"><span class="rvts6">With the help of the </span><span class="rvts31">Move Connect Align </span><span class="rvts6">command, the user is able to click on a destination MEP family, and then on an MEP family you'd like to move. The second family is moved so that the two closest connectors meet, align and connect. This command will work in 2D and 3D views.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">In Revit:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">In the ribbon, navigate to the </span><span class="rvts27">BIMrx</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts27">BIMrx MEP</span><span class="rvts6"> panel &gt;&gt; &nbsp;</span><span class="rvts27">Move Connect Align</span><span class="rvts6"> command:</span></li>
+ <li class="rvps2"><span class="rvts6">In the ribbon, navigate to the </span><span class="rvts31">BIMrx</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts31">BIMrx MEP</span><span class="rvts6"> panel &gt;&gt; &nbsp;</span><span class="rvts31">Move Connect Align</span><span class="rvts6"> command:</span></li>
 </ul>
 <p class="rvps10"><img alt="" style="padding : 1px;" src="lib/NewItem139.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
@@ -317,8 +317,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 <p class="rvps2"><img width="500" height="245" alt="" style="padding : 1px;" src="lib/NewItem1011.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">Example result:</span></p>
-<p class="rvps2"><img width="500" height="245" alt="" style="padding : 1px;" src="lib/NewItem1012.png"></p>
-<p></p>
+<p class="rvps2"><img width="500" height="245" alt="" style="padding : 1px;" src="lib/NewItem1012.png"><span class="rvts6"></span></p>
 
             </div>
             
@@ -374,7 +373,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

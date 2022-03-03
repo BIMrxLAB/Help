@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="AdvancedParameterManager.html">Advanced Parameter Manager</a></li><li><a href="ManageSharedParameters.html">Manage Shared Parameters</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="ManageSharedParameters.html" title="Manage Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ManageSharedParameters.html" title="Manage Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="AddNewEntry.html" title="Add New Entry" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ManageSharedParameters.html" title="Manage Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ManageSharedParameters.html" title="Manage Shared Parameters" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="AddNewEntry.html" title="Add New Entry" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,16 +298,14 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><a class="rvts61" href="AddNewEntry.html">In </a><a class="rvts62" href="AddNewEntry.html">Create Mode</a><a class="rvts61" href="AddNewEntry.html">, users have several core abilities to manage Shared Parameters contained within a project.</a></p>
-<p class="rvps2"><span class="rvts36"><br/></span></p>
+<p class="rvps2"><a class="rvts65" href="AddNewEntry.html">In </a><a class="rvts66" href="AddNewEntry.html">Create Mode</a><a class="rvts65" href="AddNewEntry.html">, users have several core abilities to manage Shared Parameters contained within a project.</a></p>
+<p class="rvps2"><span class="rvts40"><br/></span></p>
 <p class="rvps2"><a class="rvts11" href="AddNewEntry.html">Add New Entry</a></p>
 <p class="rvps2"><a class="rvts11" href="DeleteNewEntry.html">Delete New Entry</a></p>
 <p class="rvps2"><a class="rvts11" href="ReloadLatestSPInfofromRevitDB.html">Reload Latest SP Info from Revit DB</a></p>
 <p class="rvps2"><a class="rvts11" href="FilterbySharedParameterName.html">Filter by Shared Parameter Name</a></p>
 <p class="rvps2"><a class="rvts11" href="BatchEdits.html">Batch Edits</a></p>
-<p class="rvps2"><a class="rvts11" href="CreateSharedParameters.html">Create Shared Parameters</a></p>
-<p></p>
+<p class="rvps2"><a class="rvts11" href="CreateSharedParameters.html">Create Shared Parameters</a><span class="rvts6"></span></p>
 
             </div>
             
@@ -362,7 +361,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="RevisionManager.html">Revision Manager</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="RevisionManager.html" title="Revision Manager" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ExporttoExcel.html" title="Export to Excel" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="CreatePrintSet.html" title="Create Print Set" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="RevisionManager.html" title="Revision Manager" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ExporttoExcel.html" title="Export to Excel" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="CreatePrintSet.html" title="Create Print Set" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,25 +298,23 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
 <p class="rvps2"><span class="rvts6">Import from Excel:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts6">Modify your exported excel file and save it.</span></li>
 </ul>
-<p class="rvps2"><img width="1000" height="389" alt="" style="padding : 1px;" src="lib/NewItem1454.png"></p>
+<p class="rvps2"><img width="1138" height="443" alt="" style="padding : 1px;" src="lib/NewItem1531.png"></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts6">Open the Revision Manager and press the Import/Load button</span></li>
 </ul>
-<p class="rvps2"><img width="800" height="518" alt="" style="padding : 1px;" src="lib/NewItem1453.png"></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1530.png"></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts6">Select the excel file to load. (This dialog will open to the last exported folder during your current session)</span></li>
 </ul>
-<p class="rvps2"><img width="500" height="313" alt="" style="padding : 1px;" src="lib/NewItem1452.png"></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1529.png"></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts6">When the excel file loads it updates the sheet with the selected or deselected revisions in the revit model. (This will only remove revisions that can be removed from sheets. This excludes revisions with clouds for removal.)</span></li>
 </ul>
-<p class="rvps2"><img width="800" height="507" alt="" style="padding : 1px;" src="lib/NewItem1451.png"></p>
-<p></p>
+<p class="rvps2"><img width="983" height="624" alt="" style="padding : 1px;" src="lib/NewItem1528.png"><span class="rvts6"></span></p>
 
             </div>
             
@@ -371,7 +370,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

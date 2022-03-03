@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="ReleaseNotes.html">Release Notes</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="ReleaseNotes.html" title="Release Notes" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ReleaseNotes.html" title="Release Notes" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="KnownIssues.html" title="Known Issues" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ReleaseNotes.html" title="Release Notes" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ReleaseNotes.html" title="Release Notes" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="KnownIssues.html" title="Known Issues" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,89 +298,124 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps6"><span class="rvts16">The v3.1 release of&nbsp;</span><span class="rvts17">BIMrx® </span><span class="rvts16">for Revit highlights the following features:</span></p>
-<p class="rvps2"><span class="rvts18">General/Infrastructure</span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The </span></span><span class="rvts0"><span class="rvts22">v3.1.0.2</span></span><span class="rvts0"><span class="rvts22"> release of&nbsp;</span></span><span class="rvts0"><span class="rvts22">BIMrx® </span></span><span class="rvts0"><span class="rvts22">for Revit highlights the following updates:</span></span></h1>
+<p class="rvps2"><span class="rvts21">BIMrx Core</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts19">New Commands &amp; Features</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Notification Center (BIMrx Core) - Notifies users when a new version of BIMrx is available and provides a download link.</span></li>
- </ul>
- <li class="rvps2"><span class="rvts19">Improvements &amp; Enhancements</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">UIUX enhancements for for several dialog boxes.</span></li>
- </ul>
+ <li class="rvps2"><span class="rvts18">Parameter Transfer - Fixed issue when adding parameters of a specific manufacturer lighting family</span></li>
+ <li class="rvps2"><span class="rvts18">Tag Settings - Added ability to switch between multiple open projects</span></li>
+ <li class="rvps2"><span class="rvts18">Tagging Linked - Fixed issue when tagging linked rooms and excluded elements unavailable for tags.&nbsp;</span></li>
+ <li class="rvps2"><span class="rvts18">Tag Settings - Fixed issue that doesn't allow saving if there are missing values in the drop-downs</span></li>
+ <li class="rvps2"><span class="rvts18">Update Command - Fixed issue when updating the parameter for sheet issuance date, it adds a timestamp when there was none in the excel</span></li>
+ <li class="rvps2"><span class="rvts18">Sheet View Manager - Fixed issue with adding custom parameter named TEXT.Discipline</span></li>
+</ul>
+<p class="rvps2"><span class="rvts21"><br/></span></p>
+<p class="rvps2"><span class="rvts21">BIMrx MEP</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2"><span class="rvts18">Elbow - Fixed Issue where Elbow Fails on Vertical Duct</span></li>
+ <li class="rvps2"><span class="rvts18">MEP Copy Circuit - Fixed Issue Copy Level to Level</span></li>
+</ul>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The </span></span><span class="rvts0"><span class="rvts22">v3.1.0.1</span></span><span class="rvts0"><span class="rvts22"> release of&nbsp;</span></span><span class="rvts0"><span class="rvts22">BIMrx® </span></span><span class="rvts0"><span class="rvts22">for Revit highlights the following updates:</span></span></h1>
+<p class="rvps2"><span class="rvts21">BIMrx Core</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2"><span class="rvts20">NWC Export - Fixed Export scope not mapping correctly</span></li>
+ <li class="rvps2"><span class="rvts20">Extract Selection ParameterFilter Dialog - Fixed moving parameters from one group to another by double clicking</span></li>
+ <li class="rvps2"><span class="rvts20">Extract &amp; Update Schedules - Fixed error file produced even though the update was successful in updating the data</span></li>
+ <li class="rvps2"><span class="rvts20">Extract &amp; Update Schedule - Fixed Issue with extract and updating Boolean's</span></li>
+</ul>
+<p class="rvps2"><span class="rvts21"><br/></span></p>
+<p class="rvps2"><span class="rvts21">BIMrx MEP</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2"><span class="rvts20">Conduit Run Break - Fixed Crashing/Freezing Revit on clicking Finish</span></li>
+ <li class="rvps2"><span class="rvts20">Bloom - Fixed Cable Tray Blooming in vertical direction in wrong orientation</span></li>
+ <li class="rvps2"><span class="rvts20">Bloom - Blooming from Fittings should inherit the connected systems System properties, and not that of the Bloom Setting</span></li>
+ <li class="rvps2"><span class="rvts20">Bloom - Filter out non-applicable elements from executing the command on (elements with NO MEP connectors)</span></li>
 </ul>
 <p class="rvps2"><span class="rvts19"><br/></span></p>
-<p class="rvps2"><span class="rvts18">BIMrx&nbsp;Core&nbsp;</span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts23">The </span></span><span class="rvts0"><span class="rvts23">v3.1</span></span><span class="rvts0"><span class="rvts23"> release of&nbsp;</span></span><span class="rvts0"><span class="rvts23">BIMrx® </span></span><span class="rvts0"><span class="rvts23">for Revit highlights the following features:</span></span></h1>
+<p class="rvps2"><span class="rvts17">General/Infrastructure</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts19">New Commands &amp; Features</span></li>
+ <li class="rvps2"><span class="rvts18">New Commands &amp; Features</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Print Set Manager - Easily manage and create print sets with smart filtering.</span></li>
-  <li class="rvps2"><span class="rvts19">Section Settings - Ability to set the default type of Section that is placed using the Section command.</span></li>
-  <li class="rvps2"><span class="rvts19">Dimension Grids - Automatically place dimensions for all parallel grids in a view.</span></li>
-  <li class="rvps2"><span class="rvts19">Match Instance Parameters - Match instance parameter values across selected families and types.</span></li>
-  <li class="rvps2"><span class="rvts19">Align Tags &amp; Dimensions - Adds a dimension string along all grids in a view.</span></li>
+  <li class="rvps2"><span class="rvts18">Notification Center (BIMrx Core) - Notifies users when a new version of BIMrx is available and provides a download link.</span></li>
  </ul>
- <li class="rvps2"><span class="rvts19">Improvements &amp; Enhancements</span></li>
+ <li class="rvps2"><span class="rvts18">Improvements &amp; Enhancements</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Export NWC - Export/Import settings from XML file.</span></li>
-  <li class="rvps2"><span class="rvts19">Revision Manager - Improved UI. Ability to Export/Import via Microsoft Excel.</span></li>
-  <li class="rvps2"><span class="rvts19">Extract &amp; Update - Improved UI. Improved functionality for exporting schedules. &nbsp;Added ability to export to a simple Excel format. Added ability to update values from empty cells in excel.</span></li>
-  <li class="rvps2"><span class="rvts19">Section - Users can now specify what side of the element to create a section on. Users can now select Linked elements to create sections.</span></li>
-  <li class="rvps2"><span class="rvts19">File Renamer - Improved UI. Ability to save concatenated settings.</span></li>
-  <li class="rvps2"><span class="rvts19">Tag Settings - Improved UI. One configuration file for all configuration settings. Added ability to create groups of individual configuration settings.</span></li>
-  <li class="rvps2"><span class="rvts19">Filter Select - Extended to work with filters that have no rules applied in their definition.</span></li>
-  <li class="rvps2"><span class="rvts19">Scopebox Manager - Scope Box mapping improvements.</span></li>
+  <li class="rvps2"><span class="rvts18">UIUX enhancements for for several dialog boxes.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps2"><span class="rvts17">BIMrx&nbsp;Core&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li class="rvps2"><span class="rvts18">New Commands &amp; Features</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2"><span class="rvts18">Print Set Manager - Easily manage and create print sets with smart filtering.</span></li>
+  <li class="rvps2"><span class="rvts18">Section Settings - Ability to set the default type of Section that is placed using the Section command.</span></li>
+  <li class="rvps2"><span class="rvts18">Dimension Grids - Automatically place dimensions for all parallel grids in a view.</span></li>
+  <li class="rvps2"><span class="rvts18">Match Instance Parameters - Match instance parameter values across selected families and types.</span></li>
+  <li class="rvps2"><span class="rvts18">Align Tags &amp; Dimensions - Adds a dimension string along all grids in a view.</span></li>
+ </ul>
+ <li class="rvps2"><span class="rvts18">Improvements &amp; Enhancements</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2"><span class="rvts18">Export NWC - Export/Import settings from XML file.</span></li>
+  <li class="rvps2"><span class="rvts18">Revision Manager - Improved UI. Ability to Export/Import via Microsoft Excel.</span></li>
+  <li class="rvps2"><span class="rvts18">Extract &amp; Update - Improved UI. Improved functionality for exporting schedules. &nbsp;Added ability to export to a simple Excel format. Added ability to update values from empty cells in excel.</span></li>
+  <li class="rvps2"><span class="rvts18">Section - Users can now specify what side of the element to create a section on. Users can now select Linked elements to create sections.</span></li>
+  <li class="rvps2"><span class="rvts18">File Renamer - Improved UI. Ability to save concatenated settings.</span></li>
+  <li class="rvps2"><span class="rvts18">Tag Settings - Improved UI. One configuration file for all configuration settings. Added ability to create groups of individual configuration settings.</span></li>
+  <li class="rvps2"><span class="rvts18">Filter Select - Extended to work with filters that have no rules applied in their definition.</span></li>
+  <li class="rvps2"><span class="rvts18">Scopebox Manager - Scope Box mapping improvements.</span></li>
  </ul>
 </ul>
 <p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><span class="rvts18">BIMrx&nbsp;MEP </span><span class="rvts19">&nbsp;</span></p>
+<p class="rvps2"><span class="rvts17">BIMrx&nbsp;MEP </span><span class="rvts18">&nbsp;</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts19">New Commands &amp; Features</span></li>
+ <li class="rvps2"><span class="rvts18">New Commands &amp; Features</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Roll Into Main - Ability to tie a branch into a main with a rolling kick with minimal clicks.</span></li>
-  <li class="rvps2"><span class="rvts19">Sum Parameters - Ability to select several elements and find the summation of like parameters.</span></li>
+  <li class="rvps2"><span class="rvts18">Roll Into Main - Ability to tie a branch into a main with a rolling kick with minimal clicks.</span></li>
+  <li class="rvps2"><span class="rvts18">Sum Parameters - Ability to select several elements and find the summation of like parameters.</span></li>
  </ul>
- <li class="rvps2"><span class="rvts19">Improvements &amp; Enhancements</span></li>
+ <li class="rvps2"><span class="rvts18">Improvements &amp; Enhancements</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Align Branch - Pre-Selection Option: Ability to pre-select multiple elements of a branch before executing the command to align to a selected main. &nbsp;</span></li>
-  <li class="rvps2"><span class="rvts19">Align Branch - Flexible options for aligning elements in 3D based on user pick-points.</span></li>
-  <li class="rvps2"><span class="rvts19">Kick 90 - Added Multiple functionality.</span></li>
-  <li class="rvps2"><span class="rvts19">Route To - Added Multiple functionality.</span></li>
-  <li class="rvps2"><span class="rvts19">Rotate Fitting - Improved UI. Added 5 degrees as an option. Pre-selection Option: Ability to select multiple upstream elements to align to main. &nbsp;</span></li>
-  <li class="rvps2"><span class="rvts19">BIMrx MEP Settings - Improved UI. Added ability to control Bloomed elements. &nbsp;</span></li>
+  <li class="rvps2"><span class="rvts18">Align Branch - Pre-Selection Option: Ability to pre-select multiple elements of a branch before executing the command to align to a selected main. &nbsp;</span></li>
+  <li class="rvps2"><span class="rvts18">Align Branch - Flexible options for aligning elements in 3D based on user pick-points.</span></li>
+  <li class="rvps2"><span class="rvts18">Kick 90 - Added Multiple functionality.</span></li>
+  <li class="rvps2"><span class="rvts18">Route To - Added Multiple functionality.</span></li>
+  <li class="rvps2"><span class="rvts18">Rotate Fitting - Improved UI. Added 5 degrees as an option. Pre-selection Option: Ability to select multiple upstream elements to align to main. &nbsp;</span></li>
+  <li class="rvps2"><span class="rvts18">BIMrx MEP Settings - Improved UI. Added ability to control Bloomed elements. &nbsp;</span></li>
  </ul>
- <li class="rvps2"><span class="rvts19">Bug Fixes</span></li>
+ <li class="rvps2"><span class="rvts18">Bug Fixes</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Align Branch - Fixed non-restrictions in transposing alignment (for sloped pipe). &nbsp;Fixed instabilities with aligning sloped pipes.&nbsp;</span></li>
-  <li class="rvps2"><span class="rvts19">Move Connect - Small intolerances no longer an issue.</span></li>
-  <li class="rvps2"><span class="rvts19">Auto Break - Break Distance set to length of MEP runs between breaks. &nbsp;No longer deletes sections of MEP runs through process.</span></li>
-  <li class="rvps2"><span class="rvts19">Coupling Align - Aligns all selected couplings regardless of the direction the coupling was placed.</span></li>
+  <li class="rvps2"><span class="rvts18">Align Branch - Fixed non-restrictions in transposing alignment (for sloped pipe). &nbsp;Fixed instabilities with aligning sloped pipes.&nbsp;</span></li>
+  <li class="rvps2"><span class="rvts18">Move Connect - Small intolerance's no longer an issue.</span></li>
+  <li class="rvps2"><span class="rvts18">Auto Break - Break Distance set to length of MEP runs between breaks. &nbsp;No longer deletes sections of MEP runs through process.</span></li>
+  <li class="rvps2"><span class="rvts18">Coupling Align - Aligns all selected couplings regardless of the direction the coupling was placed.</span></li>
  </ul>
 </ul>
-<p class="rvps2"><span class="rvts19"><br/></span></p>
-<p class="rvps2"><span class="rvts18">BIMrx&nbsp;Fabrication</span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps2"><span class="rvts17">BIMrx&nbsp;Fabrication</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts19">New Commands &amp; Features</span></li>
+ <li class="rvps2"><span class="rvts18">New Commands &amp; Features</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Added Revit Spooling Templates.</span></li>
-  <li class="rvps2"><span class="rvts19">Added Spool Service Tag and features.</span></li>
-  <li class="rvps2"><span class="rvts19">Added Spool Tag - Continuation Tag.</span></li>
-  <li class="rvps2"><span class="rvts19">Added Fabrication Hanger Location Points Intelligent Link.</span></li>
-  <li class="rvps2"><span class="rvts19">Location Points now have an Automatic Updater.</span></li>
-  <li class="rvps2"><span class="rvts19">BIMrx Fabrication Settings - Extended settings for Elbows and Bloom command.</span></li>
+  <li class="rvps2"><span class="rvts18">Added Revit Spooling Templates.</span></li>
+  <li class="rvps2"><span class="rvts18">Added Spool Service Tag and features.</span></li>
+  <li class="rvps2"><span class="rvts18">Added Spool Tag - Continuation Tag.</span></li>
+  <li class="rvps2"><span class="rvts18">Added Fabrication Hanger Location Points Intelligent Link.</span></li>
+  <li class="rvps2"><span class="rvts18">Location Points now have an Automatic Updater.</span></li>
+  <li class="rvps2"><span class="rvts18">BIMrx Fabrication Settings - Extended settings for Elbows and Bloom command.</span></li>
  </ul>
- <li class="rvps2"><span class="rvts19">Improvements &amp; Enhancements</span></li>
+ <li class="rvps2"><span class="rvts18">Improvements &amp; Enhancements</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts19">Hangers - Extended for Trapeze/Rack Hangers.</span></li>
-  <li class="rvps2"><span class="rvts19">Point Placement enhancements.&nbsp;</span></li>
-  <li class="rvps2"><span class="rvts19">BIMrx Fabrication DBS - Added HPH Price Codes.</span></li>
-  <li class="rvps2"><span class="rvts19">BIMrx Fabrication DBS - Added MCAA Labor Installation Times.</span></li>
-  <li class="rvps2"><span class="rvts19">Updated Sleeve Families to include additional flexible Points.</span></li>
+  <li class="rvps2"><span class="rvts18">Hangers - Extended for Trapeze/Rack Hangers.</span></li>
+  <li class="rvps2"><span class="rvts18">Point Placement enhancements.&nbsp;</span></li>
+  <li class="rvps2"><span class="rvts18">BIMrx Fabrication DBS - Added HPH Price Codes.</span></li>
+  <li class="rvps2"><span class="rvts18">BIMrx Fabrication DBS - Added MCAA Labor Installation Times.</span></li>
+  <li class="rvps2"><span class="rvts18">Updated Sleeve Families to include additional flexible Points.</span></li>
  </ul>
 </ul>
-<p></p>
+<p class="rvps2"><span class="rvts18"></span><span class="rvts6"></span></p>
 
             </div>
             
@@ -435,7 +471,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

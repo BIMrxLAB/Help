@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxCore.html">BIMrx Core</a></li><li><a href="AdvancedParameterManager.html">Advanced Parameter Manager</a></li><li><a href="NavigatingTheAPM.html">Navigating The APM</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="NavigatingTheAPM.html" title="Navigating The APM" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="NavigatingTheAPM.html" title="Navigating The APM" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RightPanel.html" title="Right Panel" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="NavigatingTheAPM.html" title="Navigating The APM" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="NavigatingTheAPM.html" title="Navigating The APM" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RightPanel.html" title="Right Panel" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,18 +298,16 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
 <p class="rvps2"><span class="rvts6">Whether you are in the Manage Shared Parameter tab or the Sync DB Properties tab, the Left panel represents Settings and Configurations for the data that appears in the Right panel.</span></p>
 <p class="rvps10"><img width="804" height="424" alt="" style="padding : 1px;" src="lib/NewItem1264.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts58"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts62"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
 <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;">
- <li value="1" style="text-indent: 0px" class="rvps29"><span class="rvts21">Current Shared Parameter File location is displayed.</span></li>
- <li value="2" style="text-indent: 0px" class="rvps29"><span class="rvts21">User can open other Shared Parameter Files from the “Browse” button</span></li>
- <li value="3" style="text-indent: 0px" class="rvps29"><span class="rvts21">Shared Parameter Groups residing in current SP File will be shown in the dropdown list, user can rename the SP Group, add or remove SP Group by clicking the buttons</span></li>
- <li value="4" style="text-indent: 0px" class="rvps29"><span class="rvts21">Apply Filters to inspect and display Shared Parameters</span></li>
+ <li style="text-indent: 0px" class="rvps28"><span class="rvts25">Current Shared Parameter File location is displayed.</span></li>
+ <li style="text-indent: 0px" class="rvps28"><span class="rvts25">User can open other Shared Parameter Files from the “Browse” button</span></li>
+ <li style="text-indent: 0px" class="rvps28"><span class="rvts25">Shared Parameter Groups residing in current SP File will be shown in the dropdown list, user can rename the SP Group, add or remove SP Group by clicking the buttons</span></li>
+ <li style="text-indent: 0px" class="rvps28"><span class="rvts25">Apply Filters to inspect and display Shared Parameters</span><span class="rvts25"></span></li>
 </ol>
-<p></p>
 
             </div>
             
@@ -364,7 +363,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

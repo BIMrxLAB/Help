@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxFabrication.html">BIMrx Fabrication</a></li><li><a href="Bloom1.html">Bloom</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="Bloom1.html" title="Bloom" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="Bloom1.html" title="Bloom" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="FabricationElbowCommands.html" title="Fabrication Elbow Commands" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Bloom1.html" title="Bloom" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="Bloom1.html" title="Bloom" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="FabricationElbowCommands.html" title="Fabrication Elbow Commands" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,15 +298,13 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">If the selected element has unconnected MEP connectors, the </span><span class="rvts27">Fabrication Bloom</span><span class="rvts6"> command will then draw a small piece of Fabrication Pipe, Duct or Containment from each connector. This includes any Equipment elements that is an instance of any Revit Families that contains MEP Connectors.</span></p>
+<p class="rvps2"><span class="rvts6">If the selected element has unconnected MEP connectors, the </span><span class="rvts31">Fabrication Bloom</span><span class="rvts6"> command will then draw a small piece of Fabrication Pipe, Duct or Containment from each connector. This includes any Equipment elements that is an instance of any Revit Families that contains MEP Connectors.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">Upon execution, the </span><span class="rvts27">Fabrication Bloom</span><span class="rvts6"> command will attempt to find an appropriate Fabrication Service Button that represents a Fabrication Straight Piece. If multiple such Fabrication Service Buttons are found, the command will use the first one that can be successfully created.</span></p>
+<p class="rvps2"><span class="rvts6">Upon execution, the </span><span class="rvts31">Fabrication Bloom</span><span class="rvts6"> command will attempt to find an appropriate Fabrication Service Button that represents a Fabrication Straight Piece. If multiple such Fabrication Service Buttons are found, the command will use the first one that can be successfully created.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">If any of the connectors on the Equipment elements does not have a matching Fabrication Service Button, or the size of the connector does not match any matching Fabrication Service Buttons, the user will be notified the specific reasons and provided guidelines to review their Fabrication Database:</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1298.png"></p>
-<p></p>
+<p class="rvps2"><img alt="" style="padding : 1px;" src="lib/NewItem1298.png"><span class="rvts6"></span></p>
 
             </div>
             
@@ -361,7 +360,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

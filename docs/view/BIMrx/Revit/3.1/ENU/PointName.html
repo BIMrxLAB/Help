@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxFabrication.html">BIMrx Fabrication</a></li><li><a href="HangerPointsPlacement.html">Hanger Points Placement</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="HangerPointsPlacement.html" title="Hanger Points Placement" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="LoadingThePointFamily.html" title="Loading The Point Family" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="PointLocation.html" title="Point Location" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="HangerPointsPlacement.html" title="Hanger Points Placement" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="LoadingThePointFamily.html" title="Loading The Point Family" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="PointLocation.html" title="Point Location" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,22 +298,20 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
-<p class="rvps2"><span class="rvts6">The Point Names are stored in an auto-created shared parameter named </span><span class="rvts27">BIMrx_Point Name</span><span class="rvts6">, in the following format:</span></p>
+<p class="rvps2"><span class="rvts6">The Point Names are stored in an auto-created shared parameter named </span><span class="rvts31">BIMrx_Point Name</span><span class="rvts6">, in the following format:</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">H0025.A _ 3_8</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">The letter "H" is a prefix standing for "Hanger",</span></p>
-<p class="rvps2"><span class="rvts6">The digits "0025" is the Hanger Number of the fabrication Hanger that this Location Point is created from. This digit matched the fabrication hanger's Point Name stored in </span><span class="rvts27">BIMrx_HangerBOM_PointName</span><span class="rvts6"> parameter.</span></p>
-<p class="rvps2"><span class="rvts6">The characters ".A" or ".B" following the above digits indicates which rod this Location Point instance represents. ".A" represents rod #1 and ".B" represents rod #2, whose location coordinates are stored in parameters </span><span class="rvts27">BIMrx_HangerBOM_HangerPoint&lt;1 or 2&gt;</span></p>
+<p class="rvps2"><span class="rvts6">The digits "0025" is the Hanger Number of the fabrication Hanger that this Location Point is created from. This digit matched the fabrication hanger's Point Name stored in </span><span class="rvts31">BIMrx_HangerBOM_PointName</span><span class="rvts6"> parameter.</span></p>
+<p class="rvps2"><span class="rvts6">The characters ".A" or ".B" following the above digits indicates which rod this Location Point instance represents. ".A" represents rod #1 and ".B" represents rod #2, whose location coordinates are stored in parameters </span><span class="rvts31">BIMrx_HangerBOM_HangerPoint&lt;1 or 2&gt;</span></p>
 <p class="rvps2"><span class="rvts6">The character " _ " is a delimiter.</span></p>
-<p class="rvps2"><span class="rvts6">The character "3_8" following the delimiter indicates the size of the hanger rod this Location Point represents. In this case, 3_8 means 3/8" of rod size from the fabrication hanger, stored in the </span><span class="rvts27">BIMrx_HangerBOM_RodSize</span><span class="rvts6"> parameter.</span></p>
+<p class="rvps2"><span class="rvts6">The character "3_8" following the delimiter indicates the size of the hanger rod this Location Point represents. In this case, 3_8 means 3/8" of rod size from the fabrication hanger, stored in the </span><span class="rvts31">BIMrx_HangerBOM_RodSize</span><span class="rvts6"> parameter.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<h5 class="rvps11"><span class="rvts0"><span class="rvts29">Notes:</span></span></h5>
-<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
- <li value="1" class="rvps2"><span class="rvts6">Manually placed Location Point instances will have a blank value in </span><span class="rvts27">BIMrx_Point Name </span><span class="rvts6">parameter.</span></li>
+<h5 class="rvps11"><span class="rvts0"><span class="rvts33">Notes:</span></span></h5>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2"><span class="rvts6">Manually placed Location Point instances will have a blank value in </span><span class="rvts31">BIMrx_Point Name </span><span class="rvts6">parameter.</span><span class="rvts6"></span></li>
 </ol>
-<p></p>
 
             </div>
             
@@ -368,7 +367,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer

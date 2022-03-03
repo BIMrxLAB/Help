@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.0.0.199">
+  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -51,6 +51,7 @@
   <link href="css/theme-light-blue.min.css" rel="stylesheet" />
   <link href="css/print.min.css" rel="stylesheet" media="print" />
   <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
 
   <!-- Content style -->
   <link href="css/hnd.content.css" rel="stylesheet" />
@@ -286,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="BIMrxFabrication.html">BIMrx Fabrication</a></li><li><a href="Spooling.html">Spooling</a></li><li><a href="Actionbuttons.html">Action buttons</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="Actionbuttons.html" title="Action buttons" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="DeletingSpools.html" title="Deleting Spools" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SpoolCreationOptions.html" title="Spool Creation Options" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Actionbuttons.html" title="Action buttons" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="DeletingSpools.html" title="Deleting Spools" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SpoolCreationOptions.html" title="Spool Creation Options" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -297,14 +298,13 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p></p>
 <p class="rvps2"><img width="45" height="33" alt="" style="padding : 1px;" src="lib/NewItem1121.png"></p>
 <p class="rvps2"><span class="rvts6">User can export the checked spools using this feature.</span></p>
 <p class="rvps2"><span class="rvts6">&nbsp;</span></p>
-<p class="rvps2"><span class="rvts6">In the </span><span class="rvts27">Spool Manager</span><span class="rvts6"> </span><span class="rvts27">Expanded Mode</span><span class="rvts6">:</span></p>
+<p class="rvps2"><span class="rvts6">In the </span><span class="rvts31">Spool Manager</span><span class="rvts6"> </span><span class="rvts31">Expanded Mode</span><span class="rvts6">:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts6">Check the desired spools to export.</span></li>
- <li class="rvps2"><span class="rvts6">In the </span><span class="rvts27">Actions </span><span class="rvts6">section, click the “</span><span class="rvts27">Export Checked</span><span class="rvts6">” button </span><img alt="" style="padding : 1px;" src="lib/NewItem1120.png"><span class="rvts6">.</span></li>
+ <li class="rvps2"><span class="rvts6">In the </span><span class="rvts31">Actions </span><span class="rvts6">section, click the “</span><span class="rvts31">Export Checked</span><span class="rvts6">” button </span><img alt="" style="padding : 1px;" src="lib/NewItem1120.png"><span class="rvts6">.</span></li>
  <li class="rvps2"><span class="rvts6">A drop-down list of available export options will be opened:</span><br/><img alt="" style="padding : 1px;" src="lib/NewItem1119.png"></li>
 </ul>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
@@ -314,11 +314,10 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 </ul>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts38">Notes</span><span class="rvts6">:&nbsp;</span></p>
-<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;">
- <li value="1" class="rvps2"><span class="rvts6">The only available format for now is PCF, more formats will be added later on.</span></li>
+<p class="rvps2"><span class="rvts42">Notes</span><span class="rvts6">:&nbsp;</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li class="rvps2"><span class="rvts6">The only available format for now is PCF, more formats will be added later on.</span><span class="rvts6"></span></li>
 </ol>
-<p></p>
 
             </div>
             
@@ -374,7 +373,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script>
     $(function() {
       // Create the app
-      var app = new Hnd.App();
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
       // Update translations
       hnd_ut(app);
 	  // Instanciate imageMapResizer
