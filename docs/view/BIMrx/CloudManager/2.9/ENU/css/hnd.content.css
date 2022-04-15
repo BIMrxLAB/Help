@@ -466,18 +466,11 @@ a.rvts71, span.rvts71
 }
 span.rvts72
 {
- font-size: 12pt;
- font-family: 'Calibri';
- font-style: italic;
- font-weight: bold;
-}
-span.rvts73
-{
  font-size: 9pt;
  font-family: 'Calibri';
  vertical-align: super;
 }
-a.rvts74, span.rvts74
+a.rvts73, span.rvts73
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -485,60 +478,53 @@ a.rvts74, span.rvts74
  color: #0000ff;
  text-decoration: underline;
 }
-a.rvts75, span.rvts75
+a.rvts74, span.rvts74
 {
  font-size: 13pt;
  font-family: 'Calibri';
  color: #0000ff;
  text-decoration: none;
 }
-span.rvts76
+span.rvts75
 {
  font-size: 13pt;
  font-family: 'Calibri';
  text-decoration: line-through;
 }
-span.rvts77
+span.rvts76
 {
- font-size: 11pt;
+ font-size: 14pt;
  font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
 }
-span.rvts78
-{
- font-size: 12pt;
- font-family: 'Calibri';
- font-style: italic;
- font-weight: bold;
-}
-a.rvts79, span.rvts79
+a.rvts77, span.rvts77
 {
  font-size: 13pt;
  font-family: 'Calibri';
  text-decoration: none;
+}
+a.rvts78, span.rvts78
+{
+ font-size: 13pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ text-decoration: none;
+}
+span.rvts79
+{
+ font-size: 13pt;
+ font-family: 'Times New Roman', 'Times', serif;
 }
 a.rvts80, span.rvts80
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
- text-decoration: none;
-}
-span.rvts81
-{
- font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
-}
-a.rvts82, span.rvts82
-{
- font-size: 13pt;
- font-family: 'Calibri';
- font-style: italic;
  font-weight: bold;
  text-decoration: none;
 }
-a.rvts83, span.rvts83
+a.rvts81, span.rvts81
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -547,14 +533,14 @@ a.rvts83, span.rvts83
  background-color: #ffff00;
  text-decoration: none;
 }
-span.rvts84
+span.rvts82
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
  color: #000000;
 }
-span.rvts85
+span.rvts83
 {
  font-size: 13pt;
  font-family: 'Courier New', 'Courier', monospace;
@@ -755,27 +741,19 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps35
 {
- text-align: left;
- text-indent: 0px;
- page-break-after: avoid;
- padding: 0px 0px 0px 0px;
- margin: 16px 0px 4px 0px;
-}
-.rvps36
-{
  page-break-after: avoid;
  margin: 0px 0px 0px 48px;
 }
-.rvps37
+.rvps36
 {
  text-indent: -24px;
 }
-.rvps38
+.rvps37
 {
  page-break-after: avoid;
  margin: 0px 0px 13px 0px;
 }
-.rvps39
+.rvps38
 {
  margin: 0px 0px 13px 0px;
 }
