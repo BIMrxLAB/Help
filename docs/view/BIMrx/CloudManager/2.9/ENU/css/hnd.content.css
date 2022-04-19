@@ -252,47 +252,47 @@ span.rvts38
 }
 span.rvts39
 {
- font-size: 12pt;
- font-family: 'Calibri';
- font-style: italic;
- font-weight: bold;
-}
-span.rvts40
-{
- font-size: 12pt;
- font-family: 'Calibri';
- font-style: italic;
- font-weight: bold;
-}
-span.rvts41
-{
  font-size: 13pt;
  font-family: 'Segoe UI';
  color: #172b4d;
  background-color: #ffffff;
 }
-span.rvts42
+span.rvts40
 {
  font-size: 13pt;
  font-family: 'Segoe UI';
+ font-style: italic;
+ color: #172b4d;
+ background-color: #ffffff;
+}
+span.rvts41
+{
+ font-size: 11pt;
+ font-family: 'segoe ui';
+ color: #172b4d;
+ background-color: #ffffff;
+}
+span.rvts42
+{
+ font-size: 11pt;
+ font-family: 'segoe ui';
  font-style: italic;
  color: #172b4d;
  background-color: #ffffff;
 }
 span.rvts43
 {
- font-size: 11pt;
- font-family: 'segoe ui';
- color: #172b4d;
- background-color: #ffffff;
+ font-size: 12pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
 }
 span.rvts44
 {
- font-size: 11pt;
- font-family: 'segoe ui';
+ font-size: 12pt;
+ font-family: 'Calibri';
  font-style: italic;
- color: #172b4d;
- background-color: #ffffff;
+ font-weight: bold;
 }
 span.rvts45
 {
@@ -649,24 +649,27 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps17
 {
- page-break-after: avoid;
- margin: 0px 0px 10px 0px;
-}
-.rvps18
-{
  text-indent: -24px;
  margin: 0px 0px 10px 72px;
 }
-.rvps19
+.rvps18
 {
  margin: 0px 0px 10px 72px;
 }
-.rvps20
+.rvps19
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
  margin: 0px 0px 0px 48px;
+}
+.rvps20
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 4px 0px 0px 0px;
 }
 .rvps21
 {
@@ -678,11 +681,8 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps22
 {
- text-align: left;
- text-indent: 0px;
  page-break-after: avoid;
- padding: 0px 0px 0px 0px;
- margin: 4px 0px 0px 0px;
+ margin: 0px 0px 10px 0px;
 }
 .rvps23
 {
@@ -728,14 +728,18 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps32
 {
- page-break-after: avoid;
- margin: 0px 0px 10px 24px;
+ margin: 0px 0px 0px 72px;
 }
 .rvps33
 {
- margin: 0px 0px 10px 48px;
+ page-break-after: avoid;
+ margin: 0px 0px 10px 24px;
 }
 .rvps34
+{
+ margin: 0px 0px 10px 48px;
+}
+.rvps35
 {
  text-align: left;
  text-indent: 0px;
@@ -743,21 +747,21 @@ p,ul,ol /* Paragraph Style */
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
 }
-.rvps35
+.rvps36
 {
  page-break-after: avoid;
  margin: 0px 0px 0px 48px;
 }
-.rvps36
+.rvps37
 {
  text-indent: -24px;
 }
-.rvps37
+.rvps38
 {
  page-break-after: avoid;
  margin: 0px 0px 13px 0px;
 }
-.rvps38
+.rvps39
 {
  margin: 0px 0px 13px 0px;
 }
