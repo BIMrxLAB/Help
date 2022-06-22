@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
-  <title>Add Files to Projects</title>
+  <title>Filter and Display Projects</title>
   <meta name="description" content="" /> 
   <meta name="keywords" content="">
 
@@ -21,11 +21,11 @@
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Add Files to Projects">
+  <meta name="twitter:title" content="Filter and Display Projects">
   <meta name="twitter:description" content="">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Add Files to Projects" />
+  <meta property="og:title" content="Filter and Display Projects" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="" />
   <meta property="og:site_name" content="Microdesk BIMrx Cloud Manager" /> 
@@ -277,35 +277,33 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
     <article>
         <div id="topic-content" class="container-fluid" 
-		  data-hnd-id="AddFilestoProjects"
-		  data-hnd-context="49"
-		  data-hnd-title="Add Files to Projects"
+		  data-hnd-id="FilterandDisplayProjects"
+		  data-hnd-context="51"
+		  data-hnd-title="Filter and Display Projects"
 		>
             
                 <div class="navigation">
                     <ol class="breadcrumb">
-                        <li><a href="UserGuide.html">User Guide</a></li>
+                        <li><a href="UserGuide.html">User Guide</a></li><li><a href="AddFilestoProjects.html">Add Files to Projects</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="UserGuide.html" title="User Guide" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ProjectActivation.html" title="Project Activation" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="FilterandDisplayProjects.html" title="Filter and Display Projects" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AddFilestoProjects.html" title="Add Files to Projects" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="AddFilestoProjects.html" title="Add Files to Projects" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="LocateProjectFiles.html" title="Locate Project Files" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
 
             <a id="main-content"></a>
 
-            <h2>Add Files to Projects</h2>
+            <h2>Filter and Display Projects</h2>
 
             <div class="main-content">
                 
-<p class="rvps2"><span class="rvts6">Once the projects have been added to Autodesk® BIM 360®, the next step is to upload the folders and documents for each project to the Autodesk® BIM 360® cloud. The </span><span class="rvts20">File Path</span><span class="rvts6"> specified in the project template for each project serves as the hierarchy root level, and all subfolders and files found beneath it are bulk loaded to Autodesk® BIM 360® for the project.</span></p>
-<p class="rvps2"><img width="1080" height="706" alt="" style="padding : 20px;" src="lib/NewItem552.png"></p>
-<p class="rvps2"><a class="rvts11" href="FilterandDisplayProjects.html">Filter and Display Projects</a></p>
-<p class="rvps2"><a class="rvts11" href="LocateProjectFiles.html">Locate Project Files</a></p>
-<p class="rvps2"><a class="rvts11" href="SelectProjects.html">Select Projects</a></p>
-<p class="rvps2"><a class="rvts11" href="UploadSynctheProjectFoldersandFi.html">Upload/Sync the Project Folders and Files</a></p>
-<p class="rvps2"><a class="rvts11" href="ViewAutodeskRBIM360RProjectFolde.html">View Autodesk® BIM 360® Project Folders and Files Hierarchy</a></p>
-<p class="rvps2"><a class="rvts11" href="StatusDisplay1.html">Status Dsplay</a><span class="rvts6"></span></p>
+<p class="rvps22"><span class="rvts6">Navigate to the “Files” menu and press the </span><span class="rvts20">Refresh the local projects data list</span><span class="rvts6"> </span><img width="28" height="28" alt="" style="vertical-align: text-bottom; padding : 1px;" src="lib/NewItem108.png"><span class="rvts6"> button to display all Local Projects. By default, all projects contained in the </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> database are displayed.</span></p>
+<p class="rvps2"><img width="1080" height="706" alt="" style="padding : 20px;" src="lib/NewItem553.png"></p>
+<p class="rvps2"><span class="rvts6">Please note the local projects on the list display as either </span><span class="rvts20">enabled</span><span class="rvts6"> or </span><span class="rvts20">disabled</span><span class="rvts6">. </span><span class="rvts20">Enabled</span><span class="rvts6"> projects—those that appear darker and allow checking—represent projects whose local folder and file structure </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> has been able to locate on disk using their assigned “File Path”. </span><span class="rvts20">Disabled</span><span class="rvts6"> ones—those much fainter and not able to be checked—are those which </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> has not been able to locate using the supplied </span><span class="rvts20">File Path</span><span class="rvts6">. (See </span><a class="rvts11" href="LocateProjectFiles.html">Locate Project Files</a><span class="rvts6"> below for how to view the assigned </span><span class="rvts20">File Path</span><span class="rvts6"> location for each project.)</span></p>
+<p class="rvps22"><span class="rvts6">Initially, this screen is set to display all projects—both those able to locate their files and those that are not. However, these may be filtered by setting the dropdown box to show only those projects having a valid file path or those that don't:</span></p>
+<p class="rvps2"><img width="1080" height="706" alt="" style="padding : 20px;" src="lib/NewItem554.png"></p>
+<p class="rvps2"><span class="rvts6">Once a filter is selected, it automatically refreshes the list. It is not necessary to press the </span><span class="rvts20">Refresh</span><span class="rvts6"> </span><img width="28" height="29" alt="" style="vertical-align: text-bottom; padding : 1px;" src="lib/NewItem105.png"><span class="rvts6"> button unless the folders and paths have been updated while using </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> and a </span><span class="rvts20">Refresh</span><span class="rvts6"> becomes necessary..</span><span class="rvts6"></span></p>
 
             </div>
             
