@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
-  <title>Remote Setting Implications</title>
+  <title>Refresh Operation</title>
   <meta name="description" content="" /> 
   <meta name="keywords" content="">
 
@@ -21,11 +21,11 @@
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Remote Setting Implications">
+  <meta name="twitter:title" content="Refresh Operation">
   <meta name="twitter:description" content="">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Remote Setting Implications" />
+  <meta property="og:title" content="Refresh Operation" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="" />
   <meta property="og:site_name" content="Microdesk BIMrx Cloud Manager" /> 
@@ -277,9 +277,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
     <article>
         <div id="topic-content" class="container-fluid" 
-		  data-hnd-id="RemoteSettingImplications"
-		  data-hnd-context="127"
-		  data-hnd-title="Remote Setting Implications"
+		  data-hnd-id="RefreshOperation"
+		  data-hnd-context="126"
+		  data-hnd-title="Refresh Operation"
 		>
             
                 <div class="navigation">
@@ -287,22 +287,26 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="UserGuide.html">User Guide</a></li><li><a href="ScheduledJobs.html">Scheduled Jobs</a></li><li><a href="JobListing.html">Job Listing</a></li><li><a href="ServerLocationRefreshFilter.html">Server Location Refresh Filter</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ServerLocationRefreshFilter.html" title="Server Location Refresh Filter" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="RefreshOperation.html" title="Refresh Operation" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="JobOperationDisplay.html" title="Job Operation Display" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="ServerLocationRefreshFilter.html" title="Server Location Refresh Filter" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="RefreshStrategy.html" title="Refresh Strategy" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RemoteSettingImplications.html" title="Remote Setting Implications" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
 
             <a id="main-content"></a>
 
-            <h2>Remote Setting Implications</h2>
+            <h2>Refresh Operation</h2>
 
             <div class="main-content">
                 
-<p class="rvps22"><span class="rvts6">When the filter is set to Remote, the system issues a warning before doing any refresh. It’s important to note </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> does frequent refreshes. This includes any change to either the </span><span class="rvts20">Job Type</span><span class="rvts6"> or </span><span class="rvts20">Server</span><span class="rvts6"> filters. For example, when selecting the </span><span class="rvts20">Download</span><span class="rvts6"> Job Type filter with the Server Location set to Remote:</span></p>
-<p class="rvps22"><img width="1080" height="729" alt="" style="padding : 20px;" src="lib/NewItem1100.png"></p>
-<p class="rvps2"><span class="rvts6">The following warning appears:</span></p>
-<p class="rvps2"><img width="1080" height="729" alt="" style="padding : 20px;" src="lib/NewItem1101.png"></p>
-<p class="rvps2"><span class="rvts6">Please note this warning appeared after selecting the Download filter—the Refresh </span><img width="26" height="28" alt="" style="vertical-align: text-bottom; padding : 1px;" src="lib/NewItem219.png"><span class="rvts6"> button was not pressed. The same situation will occur when changing the Server filter or after adding or editing a Job (see the following section </span><a class="rvts11" href="RefreshDatafromTaskScheduler1.html">Refresh Data from Task Scheduler</a><span class="rvts6"> for more information regarding exactly when the Refresh is invoked). The reason is the warning is tied to the internal procedure that performs the data refresh when necessary. The idea is to place the user in control of when a potentially time-consuming procedure is performed.</span><span class="rvts6"></span></p>
+<p class="rvps22"><span class="rvts6">Each time the Server Refresh </span><img width="26" height="28" alt="" style="vertical-align: text-bottom; padding : 1px;" src="lib/NewItem218.png"><span class="rvts6"> button is pressed, it refreshes the Jobs list with the most recent Job data from the database and—according to the Server Location Refresh setting—the most recent status data from each server. As discussed above, if no new server data is retrieved (for example, with a setting of Local), the system displays the data saved from the most recent server interaction.</span></p>
+<p class="rvps22"><span class="rvts6">The Server Location Refresh provides a flexible approach to refreshing Job status data, allowing selection of the best approach at the time it is being used.&nbsp;</span></p>
+<p class="rvps2"><img width="1080" height="729" alt="" style="padding : 20px;" src="lib/NewItem1099.png"></p>
+<p class="rvps22"><span class="rvts6">Therefore, a good rule of thumb is as follows:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+ <li class="rvps31"><span class="rvts15">Refresh Remote when first starting the system.</span></li>
+ <li class="rvps31"><span class="rvts15">Change the setting back to None or Local.</span></li>
+ <li class="rvps31"><span class="rvts15">Change it back to Remote only when necessary—for example, when viewing the status of remote scheduled Jobs or invoking Start or Stop and obtaining the most recent data is necessary.</span><span class="rvts15"></span></li>
+</ol>
 
             </div>
             
