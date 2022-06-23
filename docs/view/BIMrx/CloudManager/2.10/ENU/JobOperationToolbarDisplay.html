@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
-  <title>Token Refresh Jobs</title>
+  <title>Job Operation Toolbar Display</title>
   <meta name="description" content="" /> 
   <meta name="keywords" content="">
 
@@ -21,11 +21,11 @@
 
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Token Refresh Jobs">
+  <meta name="twitter:title" content="Job Operation Toolbar Display">
   <meta name="twitter:description" content="">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Token Refresh Jobs" />
+  <meta property="og:title" content="Job Operation Toolbar Display" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="" />
   <meta property="og:site_name" content="Microdesk BIMrx Cloud Manager" /> 
@@ -277,31 +277,38 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
     <article>
         <div id="topic-content" class="container-fluid" 
-		  data-hnd-id="TokenRefreshJobs"
-		  data-hnd-context="183"
-		  data-hnd-title="Token Refresh Jobs"
+		  data-hnd-id="JobOperationToolbarDisplay"
+		  data-hnd-context="79"
+		  data-hnd-title="Job Operation Toolbar Display"
 		>
             
                 <div class="navigation">
                     <ol class="breadcrumb">
-                        <li><a href="UserGuide.html">User Guide</a></li><li><a href="ScheduledJobs.html">Scheduled Jobs</a></li><li><a href="TokenRefreshJobs1.html">Token Refresh Jobs</a></li><li><a href="Overview.html">Overview</a></li>
+                        <li><a href="UserGuide.html">User Guide</a></li><li><a href="ScheduledJobs.html">Scheduled Jobs</a></li><li><a href="JobListing.html">Job Listing</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Overview.html" title="Overview" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="AutodeskConnections.html" title="Autodesk Connections" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="JobUsage.html" title="Job Usage" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="JobListing.html" title="Job Listing" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ReactivateTokenRefreshJob.html" title="Reactivate Token Refresh Job" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RemoteServerSetupandConfiguratio.html" title="Remote Server Setup and Configuration" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
 
             <a id="main-content"></a>
 
-            <h2>Token Refresh Jobs</h2>
+            <h2>Job Operation Toolbar Display</h2>
 
             <div class="main-content">
                 
-<p class="rvps2"><span class="rvts6">To answer this question—providing unattended support of scheduled jobs that use an </span><span class="rvts20">Autodesk®</span><span class="rvts6"> login so the refresh token never expires— </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> incorporates </span><span class="rvts20">Token Refresh Jobs</span><span class="rvts6">. The </span><span class="rvts20">Token Refresh Job</span><span class="rvts6"> is created automatically by the system after prompting the user for their Autodesk® login credentials. It executes automatically every 7 days</span><span class="rvts85">,</span><span class="rvts6"> obtaining a new refresh token each time to ensure it doesn’t expire. (The 7-day refresh execution cycle allows sufficient time and margin of error to keep the refresh token alive well within the maximum 15-day limit.)</span></p>
-<p class="rvps2"><span class="rvts6">Every time a scheduled job is deployed to a server, the system checks whether it uses a </span><span class="rvts20">Custom</span><span class="rvts6"> or an </span><span class="rvts20">Autodesk</span><span class="rvts6"> login. If it uses an </span><span class="rvts20">Autodesk</span><span class="rvts6"> login, it then checks to see if a </span><span class="rvts20">Token Refresh Job</span><span class="rvts6"> has already been created for the </span><span class="rvts20">Job Connection</span><span class="rvts6"> email login name and the server. If one already exists, then nothing additional needs to be done. However, if not, then the system creates one automatically. It does this after prompting the user to login using their usual Autodesk® login email address and password.</span></p>
-<p class="rvps2"><span class="rvts6">In short, all scheduled jobs deployed for the same </span><span class="rvts20">Autodesk</span><span class="rvts6"> login credentials to the same server share the same </span><span class="rvts20">Token Refresh Job</span><span class="rvts6"> and refresh token. Because each time a refresh token is used by a running job it also renews it, this approach also helps to keep the refresh tokens current and active.</span></p>
-<p class="rvps2"><span class="rvts85"></span><span class="rvts6"></span></p>
+<p class="rvps2"><span class="rvts6">As may be already apparent from recent screenshots, the </span><span class="rvts20">Jobs Listing</span><span class="rvts6"> filter and button display bar can change display, depending on the number and size of selected items. For example, with nothing selected, everything fits well and appears neatly in the accustomed place.</span></p>
+<p class="rvps2"><img width="540" height="199" alt="" style="padding : 20px;" src="lib/NewItem1103.png"></p>
+<p class="rvps2"><span class="rvts6">However, when a filter selection is made it can push everything over to the right, possibly causing one or more buttons to 'disappear'.</span></p>
+<p class="rvps2"><span class="rvts6">&nbsp;</span><img width="540" height="197" alt="" style="padding : 20px;" src="lib/NewItem1104.png"></p>
+<p class="rvps2"><span class="rvts6">When this occurs, there are several options open to the user.</span></p>
+<p class="rvps2"><span class="rvts6">First, they can simply click on the </span><img width="23" height="32" alt="" style="vertical-align: text-bottom; padding : 1px;" src="lib/NewItem1105.png"><span class="rvts6"> control to bring up the 'missing buttons.'</span></p>
+<p class="rvps2"><img width="540" height="197" alt="" style="padding : 20px;" src="lib/NewItem1108.png"></p>
+<p class="rvps2"><span class="rvts6">Once these buttons are visible, they can be selected the same as if they were in their usual place.</span></p>
+<p class="rvps2"><span class="rvts6">Another option is to click and drag the column divider to the right to make the jobs listing column bigger.</span></p>
+<p class="rvps2"><img width="540" height="179" alt="" style="padding : 20px;" src="lib/NewItem1109.png"></p>
+<p class="rvps2"><span class="rvts6">There is no right or wrong here. It is simply a matter of using whatever method works best for you, the user.</span><span class="rvts6"></span></p>
 
             </div>
             

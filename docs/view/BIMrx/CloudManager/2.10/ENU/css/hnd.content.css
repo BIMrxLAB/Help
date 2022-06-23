@@ -531,13 +531,13 @@ a.rvts81, span.rvts81
 {
  font-size: 13pt;
  font-family: 'Calibri';
- text-decoration: none;
+ color: #0000ff;
+ text-decoration: underline;
 }
 a.rvts82, span.rvts82
 {
  font-size: 13pt;
  font-family: 'Calibri';
- font-style: italic;
  text-decoration: none;
 }
 a.rvts83, span.rvts83
@@ -545,20 +545,20 @@ a.rvts83, span.rvts83
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
- color: #0000ff;
- text-decoration: underline;
+ text-decoration: none;
 }
-span.rvts84
-{
- font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
-}
-a.rvts85, span.rvts85
+a.rvts84, span.rvts84
 {
  font-size: 13pt;
  font-family: 'Calibri';
+ font-style: italic;
  color: #0000ff;
  text-decoration: underline;
+}
+span.rvts85
+{
+ font-size: 13pt;
+ font-family: 'Times New Roman', 'Times', serif;
 }
 a.rvts86, span.rvts86
 {
