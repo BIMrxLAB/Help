@@ -298,24 +298,66 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-              <h1 class="rvps6"><span class="rvts0"><span class="rvts19">The </span></span><span class="rvts0"><span class="rvts19">v3.2</span></span><span class="rvts0"><span class="rvts19"> release of&nbsp;</span></span><span class="rvts0"><span class="rvts19">BIMrx® </span></span><span class="rvts0"><span class="rvts19">for Revit has the following known issues:</span></span></h1>
-
-<p class="rvps2"><span class="rvts17">BIMrx&nbsp;Core&nbsp;</span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts19">The v3.2.0.1 release of&nbsp;BIMrx® for Revit has the following known issues:</span></span></h1>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts18">Sheet View Manager - Having a custom parameter named ‘View Type’ in the project will cause an error when duplicating views using the BIMrx Sheet View Manager.</span></li>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps7"><span class="rvts25">Schema Error conflicts: This conflict occurs when Revit has loaded a schema (defined by an add-in for storing data in the model’s extensible storage), and then another model or link is loaded which contains the same unique identifier for the first schema but is different. We have resolved this by creating new unique identifier for the following commands:</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps9"><span class="rvts25">BIMrx Core Renumber</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps9"><span class="rvts25">BIMrx Core Export NWC</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps9"><span class="rvts25">BIMrx Core Imprint</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps9"><span class="rvts25">BIMrx Fabrication Hanger Array Configurations</span></li>
+ </ul>
 </ul>
-
-
+<p class="rvps10"><span class="rvts26">This means that for the above commands, users will lose the previously defined settings in their models. This is due to the new unique identifier which will have new settings. This change is a onetime change and will not happen again. Once users have upgraded to the v3.2.0.1 and updated their settings, they will not lose them again.&nbsp;</span></p>
+<p class="rvps11"><span class="rvts28"><br/></span></p>
+<p class="rvps11"><span class="rvts28">It is recommended, if users want to mimic their previous setting to record these settings BEFORE upgrading to v3.2.0.1</span></p>
+<p class="rvps11"><span class="rvts27"><br/></span></p>
+<p class="rvps11"><span class="rvts27"><br/></span></p>
+<p class="rvps12"><span class="rvts29">Tips and Tricks:&nbsp;</span><span class="rvts20">&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps13"><span class="rvts25">Tips for managing images from the BIMrx Core Imprint feature after installing v3.2.0.1:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps14"><span class="rvts25">Once users update to v3.2.0.1, all imprints will be lost however the images will still be in the project. Locate the images by navigating to the Revit Manage Links command and select the image and select the ‘Show’ button.</span></li>
+ </ul>
+</ul>
+<p class="rvps15"><img alt="" style="padding : 1px;" src="lib/NewItem1831.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps14"><span class="rvts25">This will navigate users to the image. Users can remove the original image, then run the BIMrx Imprint command and re-imprint from the original file. This will restore the connection back to the original Excel/Word/PDF file.</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps13"><span class="rvts25">Tips for managing BIMrx Fabrication Hanger Settings:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps14"><span class="rvts25">When upgrading to this version users will lose Hanger Configuration settings and will need to recreate those.&nbsp; Consider this before upgrading and save Hanger Configuration settings before upgrading as needed.&nbsp; Please reach out to the BIMrx Team for recommendations on recreating the Hanger Configurations.&nbsp;</span></li>
+ </ul>
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps13"><span class="rvts25">Tips for managing schemas</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps14"><span class="rvts25">Schema settings are unique to each Revit instance. To avoid having schema conflicts it is recommended to open each model in its own individual Revit session.</span></li>
+ </ul>
+</ul>
+<p class="rvps11"><span class="rvts27"><br/></span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts19">The v3.2 release of&nbsp;BIMrx® for Revit has the following known issues:</span></span></h1>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts18">BIMrx&nbsp;Core</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2"><span class="rvts23">Sheet View Manager - Having a custom parameter named ‘View Type’ in the project will cause an error when duplicating views using the BIMrx Sheet View Manager.</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts23"><br/></span></p>
+<p class="rvps2"><span class="rvts23"><br/></span></p>
+<p class="rvps2"><span class="rvts18">BIMrx&nbsp;Fabrication</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li class="rvps2"><span class="rvts6">When upgrading to 3.2, any previously set sleeve settings will be reset to default. If sleeve settings must be maintained, please reach out to Microdesk prior to installing the update</span></li>
+ </ul>
+</ul>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps2"><span class="rvts18"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
 
             </div>
-            <p class="rvps2"><span class="rvts18"><br/></span></p>
-
-            <p class="rvps2"><span class="rvts17">BIMrx&nbsp;Fabrication&nbsp;</span></p>
-            <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
-              <li class="rvps2"><span class="rvts18">When upgrading to 3.2, any previously set sleeve settings will be reset to default. If sleeve settings must be maintained, please reach out to Microdesk prior to installing the update</span></li>
-              <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-             </ul>
             
             <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; 2018-2022 by Microdesk. All Rights Reserved.</div></div>
         </div>  <!-- /#topic-content -->
