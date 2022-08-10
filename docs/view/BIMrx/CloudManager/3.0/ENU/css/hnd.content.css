@@ -830,47 +830,47 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps32
 {
- margin: 0px 0px 0px 96px;
+ margin: 10px 0px 10px 0px;
 }
 .rvps33
 {
- margin: 0px 0px 0px 72px;
+ margin: 0px 0px 0px 96px;
 }
 .rvps34
 {
+ margin: 0px 0px 0px 72px;
 }
 .rvps35
+{
+}
+.rvps36
 {
  page-break-after: avoid;
  margin: 0px 0px 10px 24px;
 }
-.rvps36
+.rvps37
 {
  margin: 0px 0px 10px 48px;
 }
-.rvps37
-{
- margin: 0px 0px 4px 24px;
-}
 .rvps38
 {
- text-indent: 48px;
  margin: 0px 0px 4px 24px;
 }
 .rvps39
 {
- white-space: nowrap;
+ text-indent: 48px;
  margin: 0px 0px 4px 24px;
 }
 .rvps40
 {
- text-indent: 48px;
  white-space: nowrap;
  margin: 0px 0px 4px 24px;
 }
 .rvps41
 {
- margin: 10px 0px 10px 0px;
+ text-indent: 48px;
+ white-space: nowrap;
+ margin: 0px 0px 4px 24px;
 }
 .rvps42
 {
