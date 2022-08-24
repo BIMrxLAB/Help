@@ -586,18 +586,18 @@ a.rvts90, span.rvts90
  color: #0000ff;
  text-decoration: underline;
 }
-a.rvts91, span.rvts91
+span.rvts91
+{
+ font-size: 13pt;
+ font-family: 'Calibri';
+ text-decoration: line-through;
+}
+a.rvts92, span.rvts92
 {
  font-size: 13pt;
  font-family: 'Calibri';
  color: #0000ff;
  text-decoration: none;
-}
-span.rvts92
-{
- font-size: 13pt;
- font-family: 'Calibri';
- text-decoration: line-through;
 }
 span.rvts93
 {
@@ -775,50 +775,50 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps26
 {
- text-indent: -36px;
- margin: 0px 0px 10px 132px;
+ page-break-after: avoid;
+ margin: 0px 0px 10px 24px;
 }
 .rvps27
 {
- margin: 0px 0px 0px 48px;
+ text-indent: -36px;
+ margin: 0px 0px 10px 132px;
 }
 .rvps28
 {
- page-break-after: avoid;
- margin: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 48px;
 }
 .rvps29
 {
+ page-break-after: avoid;
  margin: 0px 0px 0px 24px;
 }
 .rvps30
 {
- page-break-after: avoid;
+ margin: 0px 0px 0px 24px;
 }
 .rvps31
 {
  page-break-after: avoid;
- margin: 0px 0px 10px 48px;
 }
 .rvps32
 {
- margin: 10px 0px 10px 0px;
+ page-break-after: avoid;
+ margin: 0px 0px 10px 48px;
 }
 .rvps33
 {
- margin: 0px 0px 0px 96px;
+ margin: 10px 0px 10px 0px;
 }
 .rvps34
 {
- margin: 4px 0px 0px 72px;
+ margin: 0px 0px 0px 96px;
 }
 .rvps35
 {
+ margin: 4px 0px 0px 72px;
 }
 .rvps36
 {
- page-break-after: avoid;
- margin: 0px 0px 10px 24px;
 }
 .rvps37
 {
