@@ -873,6 +873,11 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps46
 {
+ page-break-after: avoid;
+ margin: 10px 0px 10px 0px;
+}
+.rvps47
+{
  text-align: left;
  text-indent: 0px;
  page-break-after: avoid;
