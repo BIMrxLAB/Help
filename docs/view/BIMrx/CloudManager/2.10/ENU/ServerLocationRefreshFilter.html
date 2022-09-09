@@ -287,7 +287,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="UserGuide.html">User Guide</a></li><li><a href="ScheduledJobs.html">Scheduled Jobs</a></li><li><a href="JobListing.html">Job Listing</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="JobListing.html" title="Job Listing" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ConnectionTypeFilter.html" title="Connection Type Filter" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="ServerStatusInfoCaching.html" title="Server Status Info Caching" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="JobListing.html" title="Job Listing" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ConnectionTypeFilter.html" title="Connection Type Filter" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="RefreshFilterSettings.html" title="Refresh Filter Settings" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -298,18 +298,23 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p class="rvps2"><span class="rvts6">Each time </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> refreshes the Jobs list, it can access each server having Jobs deployed to it to get the current status information, as shown in the preceding screenshot. It bears repeating that the status information managed by this filter applies only to the following three data items:</span></p>
+<p class="rvps43"><img width="1080" height="744" alt="" style="margin : 0px 20px;" src="lib/NewItem1560.png"></p>
+<p class="rvps45"><span class="rvts88">Naviate Cloud Manager — Server Location Refresh Filter set to Local, showing current (above) and default empty (below) results</span></p>
+<p class="rvps2"><span class="rvts6">Each time </span><span class="rvts21">Naviate Cloud Manager</span><span class="rvts6"> refreshes the Jobs list, it has the potential to access each </span><span class="rvts11">Server</span><span class="rvts6"> that hosts deployed Jobs. From there, it gets the the most recent status information for each job from the &nbsp;</span><a class="rvts11" href="https://docs.microsoft.com/en-us/windows/win32/taskschd/about-the-task-scheduler">Windows Task Scheduler</a><span class="rvts6">, as discussed above under </span><a class="rvts11" href="StatusDisplay.html">Status Display</a><span class="rvts6">. The status information obtained there applies to the following three data items:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps24"><span class="rvts15">Next Job run date</span></li>
  <li class="rvps24"><span class="rvts15">Last Job run date</span></li>
  <li class="rvps24"><span class="rvts15">Job run result</span></li>
 </ul>
-<p class="rvps24"><span class="rvts15"><br/></span></p>
-<p class="rvps2"><span class="rvts6">The amount of time necessary to visit these servers will vary according to how many servers there are, server CPU and memory, server and network load, etc. The time required, therefore, could vary from seconds to minutes. To address this issue, </span><span class="rvts21">BIMrx® Cloud Manager</span><span class="rvts6"> implements the caching of server data, and additional tools to help manage the Refresh procedure.</span></p>
-<p class="rvps2"><a class="rvts11" href="ServerStatusInfoCaching.html">Server Status Info Caching</a></p>
-<p class="rvps2"><a class="rvts11" href="RefreshStrategy.html">Refresh Strategy</a></p>
-<p class="rvps2"><a class="rvts11" href="RefreshOperation.html">Refresh Operation</a></p>
-<p class="rvps2"><a class="rvts11" href="RemoteSettingImplications.html">Remote Setting Implications</a><span class="rvts6"></span></p>
+<p class="rvps41"><span class="rvts6">The amount of time required to visit these servers will vary according to how many servers there are, server CPU and memory, server and network load, etc. The time required, therefore, could vary from a few seconds to one or more minutes. To address this issue— and to provide the user control of the process— </span><span class="rvts21">Naviate Cloud Manager</span><span class="rvts6"> implements the caching of server data. This feature is used in conjunction with additional tools to help provide a balance between displaying useful data and status information on one hand, and the amount of time spent to obtain it on the other. &nbsp;</span></p>
+<p class="rvps44"><span class="rvts6">Therefore, the documentation for this functionality consists of the following five parts. </span><span class="rvts11">Refresh Filter Settings</span><span class="rvts61"> </span><span class="rvts6">covers what the Refresh Filter selection box looks like, where it is located, and what each of the settings means. </span><span class="rvts21">Naviate Cloud Manager</span><span class="rvts6"> uses server data caching (see preceding paragraph) to optimize access to server status data, and </span><a class="rvts11" href="ServerStatusInfoCaching.html">Server Status Info Caching</a><span class="rvts6"> describes how it achieves that goal. </span><a class="rvts11" href="RefreshStrategy.html">Refresh Strategy</a><span class="rvts6"> proposes an optimum approach to utilizing the resources described here to use the application on a day-to-day basis. </span><a class="rvts11" href="RefreshOperation.html">Refresh Operation</a><span class="rvts6"> puts it all together—dropdown choices, refresh button and strategy to implement the best possible results. Finally, </span><a class="rvts11" href="RemoteSettingImplications.html">Remote Setting Implications</a><span class="rvts6"> provides assistance to issues possibly encountered when accessing remote servers.</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <li style="list-style-image: url('lib/2.bmp')" class="rvps2"><span class="rvts11">Refresh Filter Settings</span></li>
+ <li style="list-style-image: url('lib/2.bmp')" class="rvps2"><a class="rvts11" href="ServerStatusInfoCaching.html">Server Status Info Caching</a></li>
+ <li style="list-style-image: url('lib/2.bmp')" class="rvps2"><a class="rvts11" href="RefreshStrategy.html">Refresh Strategy</a></li>
+ <li style="list-style-image: url('lib/2.bmp')" class="rvps2"><a class="rvts11" href="RefreshOperation.html">Refresh Operation</a></li>
+ <li style="list-style-image: url('lib/2.bmp')" class="rvps2"><a class="rvts11" href="RemoteSettingImplications.html">Remote Setting Implications</a><span class="rvts6"></span></li>
+</ul>
 
             </div>
             
