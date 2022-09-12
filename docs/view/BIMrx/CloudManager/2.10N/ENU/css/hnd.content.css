@@ -660,27 +660,30 @@ a.rvts101, span.rvts101
  background-color: #ffff00;
  text-decoration: none;
 }
-a.rvts102, span.rvts102
+span.rvts102
+{
+ font-size: 14pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
+ color: #212121;
+ background-color: #ffffff;
+}
+span.rvts103
+{
+ font-size: 13pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ color: #212121;
+ background-color: #ffffff;
+}
+a.rvts104, span.rvts104
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-weight: bold;
  color: #0000ff;
  text-decoration: underline;
-}
-a.rvts103, span.rvts103
-{
- font-size: 13pt;
- font-family: 'Calibri';
- font-weight: bold;
- color: #0000ff;
- text-decoration: underline;
-}
-span.rvts104
-{
- font-size: 9pt;
- font-family: 'Calibri';
- vertical-align: super;
 }
 a.rvts105, span.rvts105
 {
@@ -688,9 +691,15 @@ a.rvts105, span.rvts105
  font-family: 'Calibri';
  font-weight: bold;
  color: #0000ff;
- text-decoration: none;
+ text-decoration: underline;
 }
-a.rvts106, span.rvts106
+span.rvts106
+{
+ font-size: 9pt;
+ font-family: 'Calibri';
+ vertical-align: super;
+}
+a.rvts107, span.rvts107
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -698,7 +707,15 @@ a.rvts106, span.rvts106
  color: #0000ff;
  text-decoration: none;
 }
-a.rvts107, span.rvts107
+a.rvts108, span.rvts108
+{
+ font-size: 13pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0000ff;
+ text-decoration: none;
+}
+a.rvts109, span.rvts109
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -706,27 +723,27 @@ a.rvts107, span.rvts107
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts108
+span.rvts110
 {
  font-size: 13pt;
  font-family: 'Calibri';
  text-decoration: line-through;
 }
-span.rvts109
+span.rvts111
 {
  font-size: 14pt;
  font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
 }
-span.rvts110
+span.rvts112
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
  color: #000000;
 }
-span.rvts111
+span.rvts113
 {
  font-size: 13pt;
  font-family: 'Courier New', 'Courier', monospace;
