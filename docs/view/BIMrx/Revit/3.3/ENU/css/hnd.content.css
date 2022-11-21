@@ -115,182 +115,185 @@ a.rvts21, span.rvts21
 {
  text-decoration: none;
 }
-span.rvts22
+a.rvts22, span.rvts22
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts23
 {
  font-size: 14pt;
  font-style: italic;
  font-weight: bold;
 }
-span.rvts23
-{
- color: ;
-}
 span.rvts24
 {
- font-weight: bold;
  color: ;
 }
 span.rvts25
 {
- font-size: 11pt;
- font-style: italic;
  font-weight: bold;
  color: ;
 }
 span.rvts26
 {
+ font-size: 11pt;
+ font-style: italic;
  font-weight: bold;
+ color: ;
 }
 span.rvts27
 {
- font-style: italic;
+ font-weight: bold;
 }
 span.rvts28
+{
+ font-style: italic;
+}
+span.rvts29
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-span.rvts29
+span.rvts30
 {
  font-style: italic;
  color: ;
 }
-span.rvts30
+span.rvts31
 {
  font-weight: bold;
 }
-a.rvts31, span.rvts31
+a.rvts32, span.rvts32
 {
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts32
-{
- color: #000000;
-}
 span.rvts33
 {
- font-weight: bold;
  color: #000000;
 }
 span.rvts34
 {
- color: #333333;
+ font-weight: bold;
+ color: #000000;
 }
 span.rvts35
 {
- color: #000000;
+ color: #333333;
 }
 span.rvts36
+{
+ color: #000000;
+}
+span.rvts37
 {
  font-weight: bold;
  color: #000000;
 }
-span.rvts37
+span.rvts38
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-span.rvts38
-{
- color: #000000;
- background-color: #ffffff;
-}
 span.rvts39
 {
- font-weight: bold;
  color: #000000;
  background-color: #ffffff;
 }
 span.rvts40
 {
- font-size: 11pt;
- font-style: italic;
  font-weight: bold;
  color: #000000;
+ background-color: #ffffff;
 }
 span.rvts41
 {
+ font-size: 11pt;
  font-style: italic;
  font-weight: bold;
  color: #000000;
 }
 span.rvts42
 {
+ font-style: italic;
+ font-weight: bold;
  color: #000000;
- background-color: #ffffff;
 }
 span.rvts43
 {
- color: #ff0000;
+ color: #000000;
+ background-color: #ffffff;
 }
 span.rvts44
 {
- text-decoration: underline;
+ color: #ff0000;
 }
 span.rvts45
+{
+ text-decoration: underline;
+}
+span.rvts46
 {
  font-weight: bold;
  color: #ff0000;
 }
-span.rvts46
+span.rvts47
 {
  font-size: 16pt;
  font-weight: bold;
  color: #000000;
 }
-span.rvts47
-{
- font-size: 12pt;
- color: #000000;
-}
 span.rvts48
 {
  font-size: 12pt;
- font-weight: bold;
  color: #000000;
 }
-a.rvts49, span.rvts49
+span.rvts49
 {
  font-size: 12pt;
  font-weight: bold;
  color: #000000;
- text-decoration: underline;
 }
 a.rvts50, span.rvts50
 {
  font-size: 12pt;
  font-weight: bold;
  color: #000000;
+ text-decoration: underline;
+}
+a.rvts51, span.rvts51
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
  text-decoration: none;
 }
-span.rvts51
+span.rvts52
 {
  font-size: 16pt;
  font-weight: bold;
 }
-span.rvts52
+span.rvts53
 {
  font-size: 11pt;
  font-family: 'Calibri';
 }
-span.rvts53
+span.rvts54
 {
  font-size: 16pt;
  font-weight: bold;
  color: #000000;
 }
-span.rvts54
+span.rvts55
 {
  font-family: 'roboto';
  color: #202124;
  background-color: #ffffff;
-}
-span.rvts55
-{
- font-family: 'Times New Roman', 'Times', serif;
 }
 span.rvts56
 {
@@ -298,125 +301,129 @@ span.rvts56
 }
 span.rvts57
 {
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts58
+{
  text-decoration: underline;
 }
-a.rvts58, span.rvts58
+a.rvts59, span.rvts59
 {
  color: #000000;
  text-decoration: none;
 }
-a.rvts59, span.rvts59
+a.rvts60, span.rvts60
 {
  font-weight: bold;
  color: #000000;
  text-decoration: none;
 }
-span.rvts60
+span.rvts61
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-a.rvts61, span.rvts61
+a.rvts62, span.rvts62
 {
  font-weight: bold;
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts62
+span.rvts63
 {
  font-size: 11pt;
  font-family: 'Calibri';
  font-weight: bold;
 }
-span.rvts63
+span.rvts64
 {
  font-size: 8pt;
  color: #000000;
 }
-a.rvts64, span.rvts64
+a.rvts65, span.rvts65
 {
  font-size: 12pt;
  color: #000000;
  text-decoration: underline;
 }
-span.rvts65
+span.rvts66
 {
  font-family: Symbola, 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial', 'Helvetica', sans-serif;
 }
-span.rvts66
-{
- color: #172b4d;
- background-color: #ffffff;
-}
 span.rvts67
 {
- font-weight: bold;
  color: #172b4d;
  background-color: #ffffff;
 }
 span.rvts68
 {
- font-size: 11pt;
- font-style: italic;
  font-weight: bold;
  color: #172b4d;
  background-color: #ffffff;
 }
 span.rvts69
 {
- color: #000000;
+ font-size: 11pt;
+ font-style: italic;
+ font-weight: bold;
+ color: #172b4d;
+ background-color: #ffffff;
 }
 span.rvts70
 {
- font-weight: bold;
  color: #000000;
 }
 span.rvts71
 {
- font-style: italic;
- text-decoration: underline;
+ font-weight: bold;
+ color: #000000;
 }
 span.rvts72
 {
+ font-style: italic;
+ text-decoration: underline;
 }
 span.rvts73
 {
+}
+span.rvts74
+{
  font-weight: bold;
 }
-a.rvts74, span.rvts74
+a.rvts75, span.rvts75
 {
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts75
+span.rvts76
 {
  font-size: 14pt;
  font-weight: bold;
 }
-span.rvts76
+span.rvts77
 {
  color: #000000;
  background-color: #e1e3e6;
 }
-span.rvts77
+span.rvts78
 {
  font-style: italic;
  font-weight: bold;
 }
-span.rvts78
+span.rvts79
 {
  font-size: 11pt;
  font-weight: bold;
 }
-span.rvts79
+span.rvts80
 {
  font-size: 12pt;
  font-style: italic;
  font-weight: bold;
  color: #000000;
 }
-span.rvts80
+span.rvts81
 {
  font-size: 11pt;
  font-style: italic;
