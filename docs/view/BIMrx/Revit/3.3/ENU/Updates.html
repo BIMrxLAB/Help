@@ -28,7 +28,7 @@
   <meta property="og:title" content="Updates" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="" />
-  <meta property="og:site_name" content="Microdesk BIMrx" /> 
+  <meta property="og:site_name" content="Microdesk-Symetri Naviate" /> 
 
   <!-- Bootstrap core CSS -->
   <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
@@ -188,7 +188,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
     </button>
-    <h1>Microdesk BIMrx</h1>
+    <h1>Microdesk-Symetri Naviate</h1>
     
   </header>
 
@@ -298,137 +298,20 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.2 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
-<p class="rvps2"><span class="rvts27"><br/></span></p>
-<p class="rvps2"><span class="rvts27">BIMrx Revit Feature fixes:</span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Renumber – UI repaired to show the ‘X’ button to delete custom changes made to the order sequence</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Find and Replace – Load time optimization when selecting elements with many shared parameters. Load times of the UI should be significantly minimized.&nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Advanced Parameter Manager (APM) – bug fixed for deleted unused shared parameters deleting ‘Family Type’ parameters from the project when opening the APM feature. Shared Parameters are no longer being deleted from the project when opening APM.&nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Extract &amp; Update – fixed bug with updating values in metric. All parameter types now work with any metric value using the Extract and Update commands. &nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication Hanger Reporting Parameters – fixed issue with reporting the rod size parameter.&nbsp; We adjusted to report the actual Geometric size of the rod as opposed to the ancillary fabrication property.&nbsp; This addresses an issue when the database is updated during a project.&nbsp;</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li style="margin-left: 0px; text-indent: 0px" class="rvps10"><span class="rvts29">Note:</span><span class="rvts28"> Old or outdated reporting parameters do not update after installation.&nbsp; They will update when an editing event happened on the Hanger. One method is to select the hanger or multiple hangers then update one if its parameter values.&nbsp; The BIMrx Reporting parameters will update as well.&nbsp;&nbsp;</span></li>
- </ul>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication Hanger Points – fixed bug with points losing data on workshared models with multiple users accessing and synchronizing.&nbsp;</span></li>
-</ul>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts27">BIMrx Cloud Manager Users:&nbsp;</span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">Before you install the upgrade, please take the following actions </span><span class="rvts30">if you have customized the DismissDialogSettings.txt file</span><span class="rvts6">.</span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">When upgrading to BIMrx Revit v3.2.0.2, the settings file “dismissDialogSettings.txt” will be replaced. If you have customized the file your edits will be lost.</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">It is recommended to make a backup of C:\ProgramData\Microdesk\BIMrx.Revit\DismissDialogSettings.txt before updating to BIMrx Revit 3.2.0.2</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">Steps to save your current settings in DismissDialogSettings.txt file before installing BIMrx Revit 3.2.0.2:</span></li>
-</ul>
-<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
- <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
-  <li style="margin-left: 0px; text-indent: 0px" class="rvps10"><span class="rvts28">Copy the “DismissDialogSettings.txt” file from C:\ProgramData\Microdesk\BIMrx.Revit&nbsp;</span></li>
-  <li style="margin-left: 0px; text-indent: 0px" class="rvps10"><span class="rvts28">Paste the “DismissDialogSettings.txt” file in C:\Users\[YOUR USER NAME]\AppData\Roaming\Microdesk\BIMrx</span></li>
- </ol>
-</ol>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.1 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts18">General/Infrastructure&nbsp;</span></p>
-<p class="rvps2"><span class="rvts18"><br/></span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li style="margin-left: 0px; text-indent: 0px" class="rvps7"><span class="rvts25">Resolved issues with a Revit Idling Event timing out after a period of use and causing warnings in Journal Files and dialogs stating “The referenced object is not valid, possibly because it has been deleted from the database, or its creation was undone”.</span></li>
-</ul>
-<p class="rvps2"><span class="rvts18"><br/></span></p>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts21">BIMrx Core</span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps8"><span class="rvts25">BIMrx Core Tag All – fixed that ability to tag linked elements when any link was not loaded. Now users can tag linked elements using the Tag All command even if one of the links is unloaded.</span></li>
- <li class="rvps8"><span class="rvts25">BIMrx Core File Renamer – fixed the ability to rename sheets that included a period in the sheet number. Users can now rename sheets that have a period in the sheet number.</span></li>
- <li class="rvps8"><span class="rvts25">BIMrx Core Section – fixed the undo button text to read ‘Section Command’</span></li>
- <li class="rvps8"><span class="rvts25">BIMrx Core Advanced Parameter Manager – fixed the corruption of shared parameter files when trying to create a ‘Family Type’ Parameter in the shared parameter file. Users are no longer able to create a ‘Family Type’ parameter in the shared parameter file.</span></li>
- <li class="rvps8"><span class="rvts25">BIMrx Core Sheet View Manager – fixed conflict with have a custom parameter named ‘View Type’ in the project which caused errors in duplicating views and creating sheets. The System Parameter ‘View Type’ was renamed ‘System: View Type’ to resolve this conflict. </span><span class="rvts26">Users will have to either re-input the view type settings in the configuration settings in the Sheet View Manager configuration settings interface or change the header of the Excel configuration file from ‘View Type’ to ‘System: View Type’ for the View Type system parameter.</span></li>
- <li class="rvps8"><span class="rvts25">BIMrx Core Sheet View Manager – fixed conflict when there is no titleblock family loaded in the project. This is no longer a conflict and will work even if there is no titleblock family loaded in the Revit project.</span></li>
- <li class="rvps8"><span class="rvts25">BIMrx Core Sheet View Manager – fixed issue with the placement module not retaining data when leaving and coming back to the module. Users can now fill in the data grid and navigate to a different module within the Sheet View Manager without losing their inputted data.</span></li>
-</ul>
-<p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><span class="rvts21"><br/></span></p>
-<p class="rvps2"><span class="rvts21">BIMrx Fabrication</span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li style="margin-left: 0px; text-indent: 0px" class="rvps7"><span class="rvts25">BIMrx Fabrication Sleeve Options – Resolved issues with Sleeve Settings not saving when upgrading BIMrx from an older version.&nbsp;</span></li>
- <li style="margin-left: 0px; text-indent: 0px" class="rvps7"><span class="rvts25">BIMrx Fabrication Hanger Array Configurations – UI update that resolves naming issue in Hanger Configurations that show Round on Rectangular Services.</span></li>
- <li style="margin-left: 0px; text-indent: 0px" class="rvps7"><span class="rvts25">BIMrx Fabrication Hangers – Hanger Rods reporting accurate lengths in BIMrx Parameters</span></li>
-</ul>
-<p class="rvps7"><span class="rvts20"><br/></span></p>
-<h1 class="rvps6"><span class="rvts0"><span class="rvts19">The v3.2 release of&nbsp;BIMrx® for Revit highlights the following features:</span></span></h1>
-<p class="rvps2"><span class="rvts18"><br/></span></p>
-<p class="rvps2"><span class="rvts18">General/Infrastructure&nbsp;</span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts18">The v3.3 release of&nbsp;BIMrx® for Revit highlights the following features:</span></span></h1>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps2"><span class="rvts17">General/Infrastructure&nbsp;</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <li class="rvps2"><span class="rvts16">New Commands &amp; Features</span></li>
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts16">No new features</span></li>
- </ul>
- <li class="rvps2"><span class="rvts16">Improvements &amp; Enhancements</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts17">General updated locations and sizes to command buttons in the Revit ribbon.</span></li>
- </ul>
-</ul>
-<p class="rvps2"><span class="rvts18"><br/></span></p>
-<p class="rvps2"><span class="rvts18">BIMrx&nbsp;Core</span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">New Commands &amp; Features</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts24">NEW</span><span class="rvts23"> Sheet View Manager – Complete redesign to allow users to easily create views/sheets all within BIMrx, a new duplication module to easily duplicate views, added filtering capability to easily find views and sheets, and many more improvements in the brand-new Sheet View Manager</span></li>
-  <li class="rvps2"><span class="rvts23">Create Table for Drafting Views – Link Excel tables into Revit drafting views as lines, text, and filled regions</span></li>
-  <li class="rvps2"><span class="rvts23">Tag All – easily select multiple views to tag utilizing the BIMrx tag configurations</span></li>
-  <li class="rvps2"><span class="rvts23">SUM Parameters – moved from BIMrx MEP to BIMrx Core</span></li>
+  <li class="rvps2"><span class="rvts16">New Cloud Based License Portal - </span><a class="rvts19" href="https://licence.symetri.com/" target="_blank">https://licence.symetri.com/</a><span class="rvts16"> (You will need to create an account on the Portal to get started)</span></li>
+  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
+   <li style="margin-left: 0px" class="rvps7"><span class="rvts16">See Naviate help for more information - </span><a class="rvts19" href="https://support.naviate.com/how-to-manage-your-licenses-and-users-on-symetri-license-portal/" target="_blank">How to manage your licenses and users on Symetri License Portal.</a><span class="rvts16">&nbsp;</span></li>
+  </ul>
+  <li class="rvps2"><span class="rvts16">This release includes features and updates up to release version BIMrx 3.2.0.5</span></li>
+  <li class="rvps2"><span class="rvts16">Updated UI and colors to represent Naviate Products.</span><span class="rvts6"></span></li>
  </ul>
 </ul>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">Improvements &amp; Enhancements</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts23">Extract &amp; Update – Preview table before Importing and added functionality for exporting multiple schedules into individual files</span></li>
-  <li class="rvps2"><span class="rvts23">Create Table – now allows for linking of excel tables into Revit Schedules&nbsp;</span></li>
-  <li class="rvps2"><span class="rvts23">Renumber – improved UI and now has the ability to renumber by spline</span></li>
-  <li class="rvps2"><span class="rvts23">Elevation – now rotates with room orientation&nbsp;</span></li>
-  <li class="rvps2"><span class="rvts23">Tagging – added orientation options in tag settings and improvements to multi-selecting elements from linked models for the Tag Select Linked Elements command</span></li>
-  <li class="rvps2"><span class="rvts23">Align Text – the align commands now includes the ability to align Revit text notes</span></li>
-  <li class="rvps2"><span class="rvts23">Print Set Manager – now allows for the ability to print multiple print sets and direct access to the Revit print settings</span></li>
- </ul>
-</ul>
-<p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><span class="rvts18">BIMrx&nbsp;MEP </span><span class="rvts16">&nbsp;</span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">New Commands &amp; Features</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts6">Conduit based parameter tracking for Elbow Commands</span></li>
-  <li class="rvps2"><span class="rvts6">Conduit Data Transfer for maintaining data through a run</span></li>
- </ul>
-</ul>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">Improvements &amp; Enhancements</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts6">Bloom Settings – Allows for Worksets to be specified</span></li>
- </ul>
-</ul>
-<p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><span class="rvts18">BIMrx&nbsp;Fabrication</span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">New Commands &amp; Features</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts6">New Command, Heal Pipe, for combining multiple pipe segments into one</span></li>
- </ul>
-</ul>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li class="rvps2"><span class="rvts6">Improvements &amp; Enhancements</span></li>
- <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
-  <li class="rvps2"><span class="rvts6">Hanger Updates for Rod Lengths, linked elements, and trapezing to system family support</span></li>
-  <li class="rvps2"><span class="rvts6">Upgraded Sync Fab Parameters now included the Fabrication Properties Panel</span></li>
- </ul>
-</ul>
-<p class="rvps2"><span class="rvts16"><br/></span></p>
-<p class="rvps2"><span class="rvts16"></span><span class="rvts6"></span></p>
 
             </div>
             
