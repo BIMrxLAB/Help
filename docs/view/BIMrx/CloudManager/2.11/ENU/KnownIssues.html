@@ -299,13 +299,13 @@ div#main > article .navigation .nav-arrows a:focus:hover {
             <div class="main-content">
                 
 <h1 class="rvps11"><span class="rvts0"><span class="rvts65">Issue</span></span></h1>
-<p class="rvps2"><span class="rvts6">When uploading files to BIM 360®, the application cannot upload files larger than 2Gb in size.</span></p>
+<p class="rvps2"><span class="rvts6">When uploading files to BIM 360®, the application cannot accurately upload files larger than 6Gb in size.</span></p>
 <h3 class="rvps20"><span class="rvts0"><span class="rvts32">Symptoms</span></span></h3>
-<p class="rvps2"><span class="rvts6">When uploading files larger than 2Gb, they are skipped after the timeout has been reached (currently 4 minutes). When a file is skipped, the log indicates the file being skipped and that is was skipped because it is too large.</span></p>
+<p class="rvps2"><span class="rvts6">Uploading files larger than 6Gb fails. This is due to an issue that occurs when uploading the file to the destination data storage web site.&nbsp;</span></p>
 <h3 class="rvps20"><span class="rvts0"><span class="rvts32">Cause</span></span></h3>
-<p class="rvps2"><span class="rvts6">Failure of the internal APIs used to perform uploads to handle files of this size.</span></p>
+<p class="rvps2"><span class="rvts6">At present, unknown. The </span><span class="rvts22">Naviate Cloud Manager</span><span class="rvts6"> development team is working together with the Autodesk® and the storage vendor to resolve the problem.</span></p>
 <h3 class="rvps20"><span class="rvts0"><span class="rvts35">Resolution</span></span></h3>
-<p class="rvps2"><span class="rvts6">Implemented a timeout that allows files larger than 2Gb to be skipped. When this occurs, the log clearly states the file was skipped and why. We are working with Autodesk® to try to resolve this issue.</span></p>
+<p class="rvps2"><span class="rvts6">When the application sees a file greater than 6Gb is being uploaded, it skips the upload and makes an entry in the log file.</span></p>
 <h1 class="rvps11"><span class="rvts0"><span class="rvts65">Issue</span></span></h1>
 <p class="rvps2"><span class="rvts6">Occasionally, after execution of a scheduled job, the Task returns a result code of: -532462766.</span></p>
 <h3 class="rvps20"><span class="rvts0"><span class="rvts32">Symptoms</span></span></h3>
