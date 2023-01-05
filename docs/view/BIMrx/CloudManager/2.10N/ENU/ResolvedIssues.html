@@ -298,18 +298,20 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<h2 class="rvps7"><span class="rvts0"><span class="rvts31">The following issues have been resolved as of the most recent (v2.10.5.1) and prior releases.&nbsp;</span></span></h2>
+<h2 class="rvps7"><span class="rvts0"><span class="rvts31">The following issues have been resolved as of the most recent (v2.10.5.3) and prior releases.&nbsp;</span></span></h2>
 <p class="rvps2"><span class="rvts6">The full details of each internal development release is included here for reference, but all the following are included in the </span><span class="rvts21">v2.10.6</span><span class="rvts6"> release.</span></p>
 <p class="rvps2"><span class="rvts40">The following issues have been resolved in the v2.10.5.n releases:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
-  <li class="rvps2"><span class="rvts48">BBL-750, BBL-753: </span><span class="rvts51">Jobs</span><span class="rvts48">:</span><span class="rvts51"> </span><span class="rvts48">Identified and resolved issues relating to uploading from scheduled Jobs.</span></li>
+  <li class="rvps2"><span class="rvts48">BBL-750, BBL-753, BBL-739: </span><span class="rvts51">Jobs</span><span class="rvts48">:</span><span class="rvts51"> </span><span class="rvts48">Identified and resolved issues relating to uploading from scheduled Jobs.</span></li>
   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
    <li class="rvps2"><span class="rvts48">Modified code to detect when a project to which the user has no folder permission access is being processed. Instead of throwing a generic exception, it now makes an easily understandable entry into the log, increments the folder errors by one, and continues (or ends if this is the only project in the job).</span></li>
    <li class="rvps2"><span class="rvts48">Threw errors when static file list included the project files folder as a separate level. Added additional test to ensure the ‘Project Files’ folder was not being handled internally as a subfolder of project files. This was likely introduced via changes made to the code that creates the static uploads dictionary list, including the ‘Project Files’ folder as it’s own level. The system now detects this situation and correctly handles it.</span></li>
    <li class="rvps2"><span class="rvts66">Addressed issue where the “file was added” wasn’t always appearing in the jobs log. Now calling upload routine synchronously to control async sub-routines and keep all log entries consecutive.&nbsp;</span></li>
    <li class="rvps2"><span class="rvts66">Changed label on jobs log from “Projects added” so it now reads “Projects processed.”</span></li>
+   <li class="rvps2"><span class="rvts66">Problems experienced when uploading via a job using a low bandwidth connection. This has been resolved by the 64-bit release.</span></li>
   </ul>
+  <li class="rvps2"><span class="rvts48">BBL-755: </span><span class="rvts51">Browse</span><span class="rvts48">:</span><span class="rvts51"> </span><span class="rvts48">Identified and resolved issue relating to canceling Download. Previously, if download was canceled, the main menu did not re-enable, or the progress bar reset itself.</span></li>
  </ul>
 </ul>
 <p class="rvps13"><span class="rvts40">The following issues have been resolved in the v2.10.4 release:</span></p>
