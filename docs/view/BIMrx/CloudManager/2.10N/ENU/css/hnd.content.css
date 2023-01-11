@@ -192,73 +192,73 @@ span.rvts29
 }
 span.rvts30
 {
+ font-size: 13pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
+}
+span.rvts31
+{
  font-size: 16pt;
  font-family: 'Calibri';
  font-weight: bold;
 }
-span.rvts31
+span.rvts32
 {
  font-size: 14pt;
  font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
 }
-span.rvts32
-{
- font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
- font-weight: bold;
-}
 span.rvts33
 {
  font-size: 13pt;
- font-family: 'Calibri';
+ font-family: 'Times New Roman', 'Times', serif;
  font-weight: bold;
 }
 span.rvts34
 {
  font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
- font-style: italic;
+ font-family: 'Calibri';
  font-weight: bold;
 }
 span.rvts35
 {
  font-size: 13pt;
  font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
  font-weight: bold;
 }
 span.rvts36
 {
  font-size: 13pt;
- font-family: 'Calibri';
- font-style: italic;
+ font-family: 'Times New Roman', 'Times', serif;
  font-weight: bold;
 }
 span.rvts37
 {
  font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
 }
 span.rvts38
 {
  font-size: 13pt;
- font-family: 'Calibri';
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
  font-weight: bold;
 }
 span.rvts39
 {
  font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
+ font-family: 'Calibri';
  font-weight: bold;
 }
 span.rvts40
 {
  font-size: 13pt;
- font-family: 'Calibri';
- font-style: italic;
+ font-family: 'Times New Roman', 'Times', serif;
  font-weight: bold;
 }
 span.rvts41
@@ -903,12 +903,14 @@ p,ul,ol /* Paragraph Style */
 .rvps8
 {
  text-indent: -24px;
- margin: 0px 0px 0px 48px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 24px;
 }
 .rvps9
 {
  text-indent: -24px;
- margin: 0px 0px 0px 144px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 120px;
 }
 .rvps10
 {
@@ -1142,6 +1144,7 @@ p,ul,ol /* Paragraph Style */
 .rvps57
 {
  text-indent: -24px;
+ padding: 0px 0px 0px 24px;
 }
 .rvps58
 {
