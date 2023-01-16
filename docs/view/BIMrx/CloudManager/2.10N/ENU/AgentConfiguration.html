@@ -314,14 +314,14 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 <p class="rvps2"><span class="rvts6">The settings described above are stored in a file named </span><span class="rvts21">C:\Program Files\Microdesk BIMrx Cloud Manager\CloudManagerAgent.exe.config</span><span class="rvts6">. This is a standard Microsoft Windows text file that can be modified using any text editor. After performing modifications, it must be saved in the same standard text format. This is not unusual and is standard for many--if not most--MS Windows applications.</span></p>
 <p class="rvps2"><span class="rvts6">Once the file is open, go to the bottom section to find the settings to be modified. </span><span class="rvts21">Be careful to not change any of the other settings in this file</span><span class="rvts6">. Changing these will likely cause the job execution </span><span class="rvts22">Agent</span><span class="rvts6"> application to not run.</span></p>
 <p class="rvps2"><img alt="" style="padding : 4px; background-color : #a5a5a5; margin : 10px 10px;" src="lib/NewItem1540.png"></p>
-<p class="rvps2"><span class="rvts6">To modify any of the three supported configuration settings, locate them at the bottom of the file under </span><span class="rvts109">&lt;Microdesk.BIMrx.CloudManager.Agent.Properties.Settings&gt;</span><span class="rvts6">. To make a change to the desired setting edit the value as follows from:</span></p>
-<p class="rvps51"><span class="rvts108">&lt;setting name="DownloadTimeoutMinutes&gt; serializeAs="String&gt;</span></p>
-<p class="rvps52"><span class="rvts108">&lt;value&gt;</span><span class="rvts110">10</span><span class="rvts108">&lt;/value&gt;</span></p>
-<p class="rvps51"><span class="rvts108">&lt;/setting&gt;</span></p>
+<p class="rvps2"><span class="rvts6">To modify any of the three supported configuration settings, locate them at the bottom of the file under </span><span class="rvts110">&lt;Microdesk.BIMrx.CloudManager.Agent.Properties.Settings&gt;</span><span class="rvts6">. To make a change to the desired setting edit the value as follows from:</span></p>
+<p class="rvps51"><span class="rvts109">&lt;setting name="DownloadTimeoutMinutes&gt; serializeAs="String&gt;</span></p>
+<p class="rvps52"><span class="rvts109">&lt;value&gt;</span><span class="rvts111">10</span><span class="rvts109">&lt;/value&gt;</span></p>
+<p class="rvps51"><span class="rvts109">&lt;/setting&gt;</span></p>
 <p class="rvps42"><span class="rvts6">to the desired setting:</span></p>
-<p class="rvps49"><span class="rvts109">&lt;setting name="DownloadTimeoutMinutes&gt; serializeAs="String&gt;</span></p>
-<p class="rvps50"><span class="rvts109">&lt;value&gt;</span><span class="rvts111">40</span><span class="rvts109">&lt;/value&gt;</span></p>
-<p class="rvps49"><span class="rvts109">&lt;/setting&gt;</span></p>
+<p class="rvps49"><span class="rvts110">&lt;setting name="DownloadTimeoutMinutes&gt; serializeAs="String&gt;</span></p>
+<p class="rvps50"><span class="rvts110">&lt;value&gt;</span><span class="rvts112">40</span><span class="rvts110">&lt;/value&gt;</span></p>
+<p class="rvps49"><span class="rvts110">&lt;/setting&gt;</span></p>
 <p class="rvps42"><span class="rvts6">Take care that the only change made is to the value that appears between the "&lt;" and the "&gt;". This must be a number (be careful not to confuse the letter "O" with the number "0") and cannot contain any decimal places or other characters. For example, one and one-half hours must be expressed as 90, which are the total minutes. There can be no spaces either before the number and the "&gt;" or after the number and the "&lt;".</span></p>
 <p class="rvps2"><span class="rvts6">The same rules described above for the example </span><span class="rvts21">DownloadTimeoutMinutes</span><span class="rvts6"> also apply to the </span><span class="rvts21">NetworkTestRetries</span><span class="rvts6"> and </span><span class="rvts21">NetworkTestPauseMinutes</span><span class="rvts6">.&nbsp;</span></p>
 <p class="rvps10"><span class="rvts24">Please Note — </span><span class="rvts6">Depending on your Text Editor, the indentation of the text elements may vary. This doesn't matter and should be ignored, as long as the only changes made are as described above and the file is saved in the standard MS Windows Text format.</span></p>
