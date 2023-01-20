@@ -1017,171 +1017,167 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps27
 {
- margin: 0px 0px 0px 48px;
+ margin: 10px 0px 0px 24px;
 }
 .rvps28
 {
- margin: 10px 0px 0px 24px;
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 0px 10px 0px;
 }
 .rvps29
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
+ page-break-after: avoid;
  margin: 0px 0px 10px 0px;
 }
 .rvps30
 {
- text-align: justify;
- text-justify: inter-word;
- text-align-last: auto;
- page-break-after: avoid;
- margin: 0px 0px 10px 0px;
-}
-.rvps31
-{
  margin: 0px 36px 10px 48px;
 }
-.rvps32
+.rvps31
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
  margin: 20px 0px 10px 0px;
 }
-.rvps33
+.rvps32
 {
  margin: 0px 0px 10px 0px;
+}
+.rvps33
+{
+ page-break-after: avoid;
+ margin: 20px 0px 10px 0px;
 }
 .rvps34
 {
  page-break-after: avoid;
- margin: 20px 0px 10px 0px;
+ margin: 0px 0px 10px 48px;
 }
 .rvps35
 {
  page-break-after: avoid;
- margin: 0px 0px 10px 48px;
+ margin: 0px 0px 10px 24px;
 }
 .rvps36
 {
- page-break-after: avoid;
- margin: 0px 0px 10px 24px;
+ margin: 20px 0px 0px 48px;
 }
 .rvps37
 {
- margin: 20px 0px 0px 48px;
+ margin: 20px 0px 0px 0px;
 }
 .rvps38
 {
- margin: 20px 0px 0px 0px;
+ page-break-after: avoid;
+ margin: 0px 0px 0px 24px;
 }
 .rvps39
 {
- page-break-after: avoid;
  margin: 0px 0px 0px 24px;
 }
 .rvps40
 {
- margin: 0px 0px 0px 24px;
+ margin: 20px 0px 0px 72px;
 }
 .rvps41
 {
- margin: 20px 0px 0px 72px;
+ page-break-after: avoid;
 }
 .rvps42
 {
- page-break-after: avoid;
+ margin: 0px 0px 20px 0px;
 }
 .rvps43
 {
- margin: 0px 0px 20px 0px;
+ margin: 10px 0px 10px 0px;
 }
 .rvps44
 {
- margin: 10px 0px 10px 0px;
+ margin: 4px 0px 10px 48px;
 }
 .rvps45
 {
- margin: 4px 0px 10px 48px;
+ margin: 0px 0px 0px 96px;
 }
 .rvps46
 {
- margin: 0px 0px 0px 96px;
+ margin: 4px 0px 0px 72px;
 }
 .rvps47
 {
- margin: 4px 0px 0px 72px;
 }
 .rvps48
 {
+ margin: 0px 0px 10px 48px;
 }
 .rvps49
 {
- margin: 0px 0px 10px 48px;
+ margin: 10px 0px 10px 24px;
 }
 .rvps50
 {
- margin: 10px 0px 10px 24px;
-}
-.rvps51
-{
  margin: 0px 0px 4px 24px;
 }
-.rvps52
+.rvps51
 {
  text-indent: 48px;
  margin: 0px 0px 4px 24px;
 }
+.rvps52
+{
+ white-space: nowrap;
+ margin: 0px 0px 4px 24px;
+}
 .rvps53
 {
+ text-indent: 48px;
  white-space: nowrap;
  margin: 0px 0px 4px 24px;
 }
 .rvps54
 {
- text-indent: 48px;
- white-space: nowrap;
- margin: 0px 0px 4px 24px;
-}
-.rvps55
-{
  margin: 0px 0px 10px 0px;
 }
-.rvps56
+.rvps55
 {
  page-break-after: avoid;
  margin: 0px 0px 0px 48px;
 }
-.rvps57
+.rvps56
 {
  page-break-after: avoid;
 }
-.rvps58
+.rvps57
 {
  page-break-after: avoid;
  margin: 10px 0px 0px 0px;
 }
-.rvps59
+.rvps58
 {
  text-indent: -24px;
  padding: 0px 0px 0px 24px;
 }
-.rvps60
+.rvps59
 {
  page-break-after: avoid;
+ margin: 0px 0px 13px 0px;
+}
+.rvps60
+{
  margin: 0px 0px 13px 0px;
 }
 .rvps61
 {
- margin: 0px 0px 13px 0px;
-}
-.rvps62
-{
  page-break-after: avoid;
  margin: 10px 0px 10px 0px;
 }
-.rvps63
+.rvps62
 {
  text-align: left;
  text-indent: 0px;
