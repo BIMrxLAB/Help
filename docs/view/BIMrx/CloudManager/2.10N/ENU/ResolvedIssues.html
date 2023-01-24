@@ -308,6 +308,22 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <li class="rvps2"><span class="rvts52">ß</span><span class="rvts49">:BBL-767: </span><span class="rvts52">Members</span><span class="rvts49">: </span><span class="rvts6">Added the wait cursor when the Select All and Selection checkbox are pressed in the left-hand Projects part of the Members module. In addition to the wait/default cursor toggling, it also disables/enables functionality on the current window while the projects are being processed. This addresses a situation where users were pressing one of these two controls and it wasn't obvious that processing was occurring.</span></li>
   <li style="margin-left: 0px" class="rvps16"><span class="rvts63">ß</span><span class="rvts62">:BBL-769: </span><span class="rvts63">Jobs</span><span class="rvts62">:</span><span class="rvts42"> When editing an </span><span class="rvts59">Export</span><span class="rvts42"> type job, after the edits were completed, the user clicked on either </span><span class="rvts59">Save</span><span class="rvts42"> or </span><span class="rvts59">Save &amp; Deploy</span><span class="rvts42"> and the message, </span><span class="rvts59">BIMrx Core has not been installed</span><span class="rvts42"> was appearing, when BIMrx CORE </span><span class="rvts59">has</span><span class="rvts42"> been installed. This issue has been resolved.</span></li>
   <li style="margin-left: 0px" class="rvps16"><span class="rvts63">ß</span><span class="rvts62">:BBL-770: </span><span class="rvts63">Jobs</span><span class="rvts62">:</span><span class="rvts42"> When editing a </span><span class="rvts59">Download</span><span class="rvts42">, </span><span class="rvts59">Export</span><span class="rvts42"> or </span><span class="rvts59">Publish</span><span class="rvts42"> job having a </span><span class="rvts59">Static</span><span class="rvts42"> filter application, instead of displaying the selected file set with files only, it displayed a full listing with one row for each folder. This issue has been addressed and the correct listing of only one row per selected file now appears.</span></li>
+ </ul>
+</ul>
+<p class="rvps23"><span class="rvts41">Please Note</span><span class="rvts42"> — If you see a display of mostly folders in the </span><span class="rvts59">Selected Files</span><span class="rvts42"> tab after installing the fixed version, do the following:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+    <li style="margin-left: 0px" class="rvps24"><span class="rvts42">Press the Edit button to go into </span><span class="rvts59">Edit</span><span class="rvts42"> mode.</span></li>
+    <li style="margin-left: 0px" class="rvps24"><span class="rvts42">Allow enough time for the Project tree to fully populate.</span></li>
+    <li style="margin-left: 0px" class="rvps24"><span class="rvts42">Save the job. The Files display in the </span><span class="rvts59">Selected Files</span><span class="rvts42"> tab should now show only files.</span></li>
+   </ol>
+  </ol>
+ </ol>
+</ol>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
   <li class="rvps2"><span class="rvts49">BBL-750, BBL-753, BBL-739: </span><span class="rvts52">Jobs</span><span class="rvts49">:</span><span class="rvts6"> </span><span class="rvts24">Identified and resolved issues relating to uploading from scheduled Jobs.</span></li>
   <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;">
    <li class="rvps2"><span class="rvts49">Modified code to detect when a project to which the user has no folder permission access is being processed. Instead of throwing a generic exception, it now makes an easily understandable entry into the log, increments the folder errors by one, and continues (or ends if this is the only project in the job).</span></li>
