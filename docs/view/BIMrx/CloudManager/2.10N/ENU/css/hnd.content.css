@@ -1051,64 +1051,64 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps32
 {
- margin: 0px 0px 0px 24px;
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 0px 10px 0px;
 }
 .rvps33
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
+ page-break-after: avoid;
  margin: 0px 0px 10px 0px;
 }
 .rvps34
 {
- text-align: justify;
- text-justify: inter-word;
- text-align-last: auto;
- page-break-after: avoid;
- margin: 0px 0px 10px 0px;
-}
-.rvps35
-{
  margin: 0px 36px 10px 48px;
 }
-.rvps36
+.rvps35
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
  margin: 20px 0px 10px 0px;
 }
-.rvps37
+.rvps36
 {
  margin: 0px 0px 10px 0px;
+}
+.rvps37
+{
+ page-break-after: avoid;
+ margin: 20px 0px 10px 0px;
 }
 .rvps38
 {
  page-break-after: avoid;
- margin: 20px 0px 10px 0px;
+ margin: 0px 0px 10px 48px;
 }
 .rvps39
 {
  page-break-after: avoid;
- margin: 0px 0px 10px 48px;
+ margin: 0px 0px 10px 24px;
 }
 .rvps40
 {
- page-break-after: avoid;
- margin: 0px 0px 10px 24px;
+ margin: 20px 0px 0px 48px;
 }
 .rvps41
 {
- margin: 20px 0px 0px 48px;
+ margin: 20px 0px 0px 0px;
 }
 .rvps42
 {
- margin: 20px 0px 0px 0px;
+ page-break-after: avoid;
+ margin: 0px 0px 0px 24px;
 }
 .rvps43
 {
- page-break-after: avoid;
  margin: 0px 0px 0px 24px;
 }
 .rvps44
