@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 7.9.1.631">
+  <meta name="generator" content="HelpNDoc Personal Edition 8.5.0.413">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -195,8 +195,8 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <nav id="panel-left" class="md-nav-expanded">
     <!-- Nav tabs -->
     <ul class="tab-tabs nav nav-tabs" role="tablist">
-      <li id="nav-close"> 
-        <button class="hnd-toggle btn btn-default">
+      <li id="nav-close" role="presentation"> 
+        <button class="hnd-toggle btn btn-default" aria-label="close">
           <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
         </button>
       </li>
@@ -252,9 +252,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
             <form id="search-form">
               <div class="form-group">
                 <div class="input-group">
-                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." aria-label="Search..." />
                   <span class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
+                    <button class="btn btn-default" type="submit" aria-label="Search...">
                       <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                     </button>
                   </span>
@@ -298,26 +298,50 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.6 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
-<p class="rvps2"><span class="rvts31"><br/></span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.9 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
 <p class="rvps2"><span class="rvts27">BIMrx Revit Features:</span></p>
 <p class="rvps2"><span class="rvts27"><br/></span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Sheet View Manager - Fixed issue with prefix/suffix when naming views and sheets.</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Extract and Update - Fixed issue when exporting a large schedule on a Cloud Initialized Model.&nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Create Table - Fixed issue when creating a table with the drafting view option not showing the correct results in an Air Balancing Schedule.&nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Create Table - resolved issue with cells merging when text went beyond the cell.</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Print Set Manager - Added additional error checking when a computer has administrator restrictions to resolve certain access/editing errors.&nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core Extract - Removed ability to select Note Block schedules as they are unsupported currently. &nbsp;This was previously causing an error.&nbsp;</span></li>
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx MEP Elbow - enhanced routing settings to add an Invert Dimension routing setting.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication - Renumber - Resolved issue were renumber did not differentiate elbow throat lengths&nbsp;</span></li>
+</ul>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.8 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
+<p class="rvps2"><span class="rvts27">BIMrx Revit Features:</span></p>
+<p class="rvps2"><span class="rvts27"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication - Elbow - Resolved issue with vertical pipe computing a large slope value.</span></li>
+</ul>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.7 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
+<p class="rvps2"><span class="rvts27">BIMrx Revit Features:</span></p>
+<p class="rvps2"><span class="rvts27"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication - Resolved issue were Move Connect breaks downstream elements</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication - Resolved issue with Elbows and Service Weight / Directional System&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Fabrication - Resolved Elbow Object Reference error that showed periodically.&nbsp;</span></li>
+</ul>
+<p class="rvps2"><span class="rvts31"><br/></span></p>
+<h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.6 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
+<p class="rvps2"><span class="rvts27">BIMrx Revit Features:</span></p>
+<p class="rvps2"><span class="rvts27"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core - fixed Error when exporting large schedule</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core - CreateTable DraftingView - resolved issue where drafting view doesn't match excel data</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core - CreateTable Schedules - resolved merging cell issue that was not matching&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core - Extract - Resolved error when exporting Note Block Schedule</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx Core - Sheet View Manager - resolved issues with prefix/suffix when naming views and sheets</span></li>
+</ul>
+<p class="rvps9"><span class="rvts28"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">BIMrx MEP - Elbow Invert Dimension routing setting added</span></li>
 </ul>
 <p class="rvps9"><span class="rvts28"><br/></span></p>
 <p class="rvps9"><span class="rvts28"><br/></span></p>
 <p class="rvps2"><span class="rvts27">BIMrx Cloud Manager Features:&nbsp;</span></p>
 <p class="rvps2"><span class="rvts27"><br/></span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
- <li style="text-indent: 0px" class="rvps9"><span class="rvts28">Export Jobs - Resolved issue and added a feature for when a Model that fails to open holds up job progress. &nbsp;Users can now set timeout for these types of Jobs in a configuration file. &nbsp;See Cloud Manager Documentation for more details.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps9"><span class="rvts28">Jobs / Export - Fixed Export PDF/NWC/DWG From Revit Model that fails to open and holds up job progress</span></li>
 </ul>
+<p class="rvps9"><span class="rvts28"><br/></span></p>
+<p class="rvps9"><span class="rvts28"><br/></span></p>
 <h1 class="rvps6"><span class="rvts0"><span class="rvts22">The v3.2.0.5 release of&nbsp;BIMrx® for Revit highlights the following updates:</span></span></h1>
 <p class="rvps2"><span class="rvts31"><br/></span></p>
 <p class="rvps2"><span class="rvts27">BIMrx Revit Features:</span></p>
@@ -513,6 +537,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 </ul>
 <p class="rvps2"><span class="rvts16"><br/></span></p>
 <p class="rvps2"><span class="rvts16"></span><span class="rvts6"></span></p>
+<p class="rvps5" style="clear: both;"><span class="rvts13">Created with the Personal Edition of HelpNDoc: </span><a class="rvts14" href="https://www.helpndoc.com/help-authoring-tool">Free help authoring tool</a></p>
 
             </div>
             
