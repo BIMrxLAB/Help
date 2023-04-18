@@ -521,7 +521,8 @@ p,ul,ol /* Paragraph Style */
 .rvps7
 {
  text-indent: -24px;
- margin: 7px 0px 7px 48px;
+ padding: 0px 0px 0px 24px;
+ margin: 7px 0px 7px 24px;
 }
 .rvps8
 {
@@ -530,16 +531,19 @@ p,ul,ol /* Paragraph Style */
 .rvps9
 {
  text-indent: -24px;
+ padding: 0px 0px 0px 24px;
 }
 .rvps10
 {
  text-indent: -24px;
- margin: 0px 0px 0px 96px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 72px;
 }
 .rvps11
 {
  text-indent: -24px;
- margin: 7px 0px 7px 96px;
+ padding: 0px 0px 0px 24px;
+ margin: 7px 0px 7px 72px;
 }
 .rvps12
 {
@@ -558,13 +562,15 @@ p,ul,ol /* Paragraph Style */
 {
  text-indent: -24px;
  line-height: 1.30;
- margin: 7px 0px 7px 48px;
+ padding: 0px 0px 0px 24px;
+ margin: 7px 0px 7px 24px;
 }
 .rvps16
 {
  text-indent: -24px;
  line-height: 1.30;
- margin: 7px 0px 7px 96px;
+ padding: 0px 0px 0px 24px;
+ margin: 7px 0px 7px 72px;
 }
 .rvps17
 {
@@ -615,13 +621,13 @@ p,ul,ol /* Paragraph Style */
 .rvps26
 {
  text-indent: -24px;
- margin: 0px 0px 0px 24px;
+ padding: 0px 0px 0px 24px;
 }
 .rvps27
 {
  text-indent: -24px;
  background: #ffffff;
- margin: 0px 0px 0px 24px;
+ padding: 0px 0px 0px 24px;
 }
 .rvps28
 {
@@ -667,7 +673,8 @@ p,ul,ol /* Paragraph Style */
 .rvps37
 {
  text-indent: -24px;
- margin: 0px 0px 0px 72px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 48px;
 }
 .rvps38
 {
@@ -676,7 +683,8 @@ p,ul,ol /* Paragraph Style */
 .rvps39
 {
  text-indent: -24px;
- margin: 0px 0px 0px 120px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 96px;
 }
 .rvps40
 {
@@ -685,7 +693,8 @@ p,ul,ol /* Paragraph Style */
 .rvps41
 {
  text-indent: -12px;
- margin: 0px 0px 0px 168px;
+ padding: 0px 0px 0px 12px;
+ margin: 0px 0px 0px 156px;
 }
 .rvps42
 {
@@ -698,7 +707,8 @@ p,ul,ol /* Paragraph Style */
 .rvps44
 {
  text-indent: -24px;
- margin: 0px 0px 0px 144px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 120px;
 }
 .rvps45
 {
@@ -707,12 +717,14 @@ p,ul,ol /* Paragraph Style */
 .rvps46
 {
  text-indent: -24px;
- margin: 0px 0px 0px 48px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 24px;
 }
 .rvps47
 {
  text-indent: -12px;
- margin: 0px 0px 0px 144px;
+ padding: 0px 0px 0px 12px;
+ margin: 0px 0px 0px 132px;
 }
 .rvps48
 {
@@ -795,7 +807,8 @@ p,ul,ol /* Paragraph Style */
 {
  text-indent: -24px;
  background: #ffffff;
- margin: 0px 0px 0px 48px;
+ padding: 0px 0px 0px 24px;
+ margin: 0px 0px 0px 24px;
 }
 .rvps65
 {
