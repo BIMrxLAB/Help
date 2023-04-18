@@ -489,7 +489,15 @@ span.rvts73
  color: #172b4d;
  background-color: #ffffff;
 }
-span.rvts74
+a.rvts74, span.rvts74
+{
+ font-size: 13pt;
+ font-family: 'Calibri';
+ font-style: italic;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts75
 {
  font-size: 16pt;
  font-family: 'Calibri';
@@ -497,34 +505,34 @@ span.rvts74
  font-weight: bold;
  text-decoration: underline;
 }
-a.rvts75, span.rvts75
+a.rvts76, span.rvts76
 {
  font-size: 13pt;
  font-family: 'Calibri';
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts76
+span.rvts77
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
 }
-a.rvts77, span.rvts77
+a.rvts78, span.rvts78
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
  text-decoration: none;
 }
-span.rvts78
+span.rvts79
 {
  font-size: 13pt;
  font-family: 'Calibri';
  color: #212121;
  background-color: #ffffff;
 }
-a.rvts79, span.rvts79
+a.rvts80, span.rvts80
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -532,18 +540,10 @@ a.rvts79, span.rvts79
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts80
-{
- font-size: 13pt;
- font-family: 'Calibri';
- font-weight: bold;
- color: #000000;
-}
 span.rvts81
 {
  font-size: 13pt;
  font-family: 'Calibri';
- font-style: italic;
  font-weight: bold;
  color: #000000;
 }
@@ -551,71 +551,79 @@ span.rvts82
 {
  font-size: 13pt;
  font-family: 'Calibri';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts83
+{
+ font-size: 13pt;
+ font-family: 'Calibri';
  color: #393939;
  background-color: #ffffff;
 }
-span.rvts83
+span.rvts84
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
  color: #000000;
 }
-a.rvts84, span.rvts84
+a.rvts85, span.rvts85
 {
  font-size: 13pt;
  font-family: 'Calibri';
  color: #000000;
  text-decoration: underline;
 }
-span.rvts85
+span.rvts86
 {
  font-size: 16pt;
  font-family: 'Times New Roman', 'Times', serif;
  font-weight: bold;
 }
-span.rvts86
-{
- font-size: 13pt;
- font-family: 'Times New Roman', 'Times', serif;
-}
 span.rvts87
 {
  font-size: 13pt;
- font-family: 'Calibri';
- font-weight: bold;
- color: #ff0000;
+ font-family: 'Times New Roman', 'Times', serif;
 }
 span.rvts88
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-weight: bold;
- color: #339966;
+ color: #ff0000;
 }
 span.rvts89
 {
  font-size: 13pt;
  font-family: 'Calibri';
  font-weight: bold;
- color: #ff9900;
+ color: #339966;
 }
 span.rvts90
 {
  font-size: 13pt;
  font-family: 'Calibri';
- color: #ff0000;
+ font-weight: bold;
+ color: #ff9900;
 }
 span.rvts91
 {
- font-family: 'Courier New', 'Courier', monospace;
+ font-size: 13pt;
+ font-family: 'Calibri';
+ color: #ff0000;
 }
 span.rvts92
 {
  font-family: 'Courier New', 'Courier', monospace;
+}
+span.rvts93
+{
+ font-family: 'Courier New', 'Courier', monospace;
  background-color: #ffff00;
 }
-a.rvts93, span.rvts93
+a.rvts94, span.rvts94
 {
  font-size: 9pt;
  font-family: 'Calibri';
@@ -623,123 +631,115 @@ a.rvts93, span.rvts93
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts94
+span.rvts95
 {
  font-size: 9pt;
  font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
 }
-span.rvts95
+span.rvts96
 {
  font-family: 'Courier New', 'Courier', monospace;
 }
-span.rvts96
+span.rvts97
 {
  font-family: 'Courier New', 'Courier', monospace;
  font-style: italic;
 }
-a.rvts97, span.rvts97
+a.rvts98, span.rvts98
 {
  font-size: 13pt;
  font-family: 'Calibri';
  color: #0000ff;
  text-decoration: none;
 }
-span.rvts98
+span.rvts99
 {
  font-size: 11pt;
  font-family: 'Courier New', 'Courier', monospace;
 }
-span.rvts99
-{
- font-size: 11pt;
- font-weight: bold;
-}
 span.rvts100
 {
  font-size: 11pt;
- font-family: 'Calibri';
  font-weight: bold;
 }
 span.rvts101
 {
+ font-size: 11pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+}
+span.rvts102
+{
  font-size: 12pt;
  font-family: 'Calibri';
 }
-span.rvts102
+span.rvts103
 {
  font-size: 16pt;
  font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
 }
-span.rvts103
-{
- font-size: 13pt;
- font-family: 'Calibri';
-}
 span.rvts104
 {
  font-size: 13pt;
  font-family: 'Calibri';
- font-weight: bold;
 }
 span.rvts105
 {
  font-size: 13pt;
  font-family: 'Calibri';
- font-style: italic;
  font-weight: bold;
 }
 span.rvts106
 {
  font-size: 13pt;
  font-family: 'Calibri';
+ font-style: italic;
  font-weight: bold;
- color: #808080;
 }
 span.rvts107
 {
- font-size: 12pt;
+ font-size: 13pt;
  font-family: 'Calibri';
  font-weight: bold;
+ color: #808080;
 }
 span.rvts108
 {
  font-size: 12pt;
  font-family: 'Calibri';
- font-style: italic;
  font-weight: bold;
 }
 span.rvts109
 {
  font-size: 12pt;
  font-family: 'Calibri';
+ font-style: italic;
  font-weight: bold;
- color: #ff0000;
 }
 span.rvts110
 {
  font-size: 12pt;
  font-family: 'Calibri';
  font-weight: bold;
- color: ;
+ color: #ff0000;
 }
 span.rvts111
 {
  font-size: 12pt;
  font-family: 'Calibri';
  font-weight: bold;
- color: #00b050;
+ color: ;
 }
 span.rvts112
 {
  font-size: 12pt;
  font-family: 'Calibri';
  font-weight: bold;
- color: #ffc000;
- background-color: #ffffff;
+ color: #00b050;
 }
 span.rvts113
 {
@@ -747,11 +747,14 @@ span.rvts113
  font-family: 'Calibri';
  font-weight: bold;
  color: #ffc000;
+ background-color: #ffffff;
 }
 span.rvts114
 {
  font-size: 12pt;
- font-family: 'Courier New', 'Courier', monospace;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #ffc000;
 }
 span.rvts115
 {
@@ -762,7 +765,6 @@ span.rvts116
 {
  font-size: 12pt;
  font-family: 'Courier New', 'Courier', monospace;
- font-style: italic;
 }
 span.rvts117
 {
@@ -772,19 +774,25 @@ span.rvts117
 }
 span.rvts118
 {
+ font-size: 12pt;
+ font-family: 'Courier New', 'Courier', monospace;
+ font-style: italic;
+}
+span.rvts119
+{
  font-size: 13pt;
  font-family: 'Calibri';
  font-style: italic;
  font-weight: bold;
  background-color: #ffff00;
 }
-span.rvts119
+span.rvts120
 {
  font-size: 13pt;
  font-family: 'Calibri';
  text-decoration: line-through;
 }
-span.rvts120
+span.rvts121
 {
  font-size: 14pt;
  font-family: 'Calibri';
@@ -793,7 +801,7 @@ span.rvts120
  color: #212121;
  background-color: #ffffff;
 }
-span.rvts121
+span.rvts122
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -801,7 +809,7 @@ span.rvts121
  color: #212121;
  background-color: #ffffff;
 }
-a.rvts122, span.rvts122
+a.rvts123, span.rvts123
 {
  font-size: 13pt;
  font-family: 'Calibri';
@@ -809,19 +817,11 @@ a.rvts122, span.rvts122
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts123
+span.rvts124
 {
  font-size: 9pt;
  font-family: 'Calibri';
  vertical-align: super;
-}
-a.rvts124, span.rvts124
-{
- font-size: 13pt;
- font-family: 'Calibri';
- font-weight: bold;
- color: #0000ff;
- text-decoration: none;
 }
 a.rvts125, span.rvts125
 {
@@ -835,9 +835,9 @@ a.rvts126, span.rvts126
 {
  font-size: 13pt;
  font-family: 'Calibri';
- font-style: italic;
+ font-weight: bold;
  color: #0000ff;
- text-decoration: underline;
+ text-decoration: none;
 }
 a.rvts127, span.rvts127
 {
@@ -1035,11 +1035,7 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps26
 {
- text-align: left;
- text-indent: 0px;
- page-break-after: avoid;
- padding: 0px 0px 0px 0px;
- margin: 4px 0px 0px 0px;
+ margin: 0px 0px 10px 72px;
 }
 .rvps27
 {
@@ -1051,187 +1047,199 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps28
 {
+ text-align: left;
+ text-indent: 0px;
  page-break-after: avoid;
- margin: 0px 0px 10px 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 4px 0px 0px 0px;
 }
 .rvps29
 {
+ page-break-after: avoid;
+ margin: 0px 0px 10px 0px;
 }
 .rvps30
 {
- margin: 16px 0px 10px 72px;
 }
 .rvps31
 {
- margin: 10px 0px 0px 24px;
+ margin: 16px 0px 10px 72px;
 }
 .rvps32
 {
- text-align: justify;
- text-justify: inter-word;
- text-align-last: auto;
- margin: 0px 0px 10px 0px;
+ margin: 10px 0px 0px 24px;
 }
 .rvps33
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
- page-break-after: avoid;
  margin: 0px 0px 10px 0px;
 }
 .rvps34
 {
- margin: 0px 36px 10px 48px;
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ page-break-after: avoid;
+ margin: 0px 0px 10px 0px;
 }
 .rvps35
+{
+ margin: 0px 36px 10px 48px;
+}
+.rvps36
 {
  text-align: justify;
  text-justify: inter-word;
  text-align-last: auto;
  margin: 20px 0px 10px 0px;
 }
-.rvps36
-{
- margin: 0px 0px 10px 0px;
-}
 .rvps37
 {
- page-break-after: avoid;
- margin: 20px 0px 10px 0px;
+ margin: 0px 0px 10px 0px;
 }
 .rvps38
 {
  page-break-after: avoid;
- margin: 0px 0px 10px 48px;
+ margin: 20px 0px 10px 0px;
 }
 .rvps39
 {
  page-break-after: avoid;
- margin: 0px 0px 10px 24px;
+ margin: 0px 0px 10px 48px;
 }
 .rvps40
 {
- margin: 20px 0px 0px 48px;
+ page-break-after: avoid;
+ margin: 0px 0px 10px 24px;
 }
 .rvps41
 {
- margin: 20px 0px 0px 0px;
+ margin: 20px 0px 0px 48px;
 }
 .rvps42
 {
- page-break-after: avoid;
- margin: 0px 0px 0px 24px;
+ margin: 20px 0px 0px 0px;
 }
 .rvps43
 {
+ page-break-after: avoid;
  margin: 0px 0px 0px 24px;
 }
 .rvps44
 {
- margin: 20px 0px 0px 72px;
+ margin: 0px 0px 0px 24px;
 }
 .rvps45
 {
- page-break-after: avoid;
+ margin: 20px 0px 0px 72px;
 }
 .rvps46
 {
- margin: 0px 0px 20px 0px;
+ page-break-after: avoid;
 }
 .rvps47
 {
- margin: 10px 0px 10px 0px;
+ margin: 0px 0px 20px 0px;
 }
 .rvps48
 {
- margin: 4px 0px 10px 48px;
+ margin: 10px 0px 10px 0px;
 }
 .rvps49
 {
- margin: 0px 0px 20px 24px;
+ margin: 4px 0px 10px 48px;
 }
 .rvps50
 {
+ margin: 0px 0px 20px 24px;
 }
 .rvps51
 {
- margin: 0px 0px 0px 96px;
 }
 .rvps52
 {
- margin: 4px 0px 0px 72px;
+ margin: 0px 0px 0px 96px;
 }
 .rvps53
 {
- margin: 0px 0px 10px 48px;
+ margin: 4px 0px 0px 72px;
 }
 .rvps54
 {
- margin: 10px 0px 0px 0px;
+ margin: 0px 0px 10px 48px;
 }
 .rvps55
 {
- margin: 10px 0px 10px 24px;
+ margin: 10px 0px 0px 0px;
 }
 .rvps56
 {
- margin: 0px 0px 4px 24px;
+ margin: 10px 0px 10px 24px;
 }
 .rvps57
 {
- text-indent: 48px;
  margin: 0px 0px 4px 24px;
 }
 .rvps58
 {
- white-space: nowrap;
+ text-indent: 48px;
  margin: 0px 0px 4px 24px;
 }
 .rvps59
 {
- text-indent: 48px;
  white-space: nowrap;
  margin: 0px 0px 4px 24px;
 }
 .rvps60
 {
- margin: 0px 0px 10px 0px;
+ text-indent: 48px;
+ white-space: nowrap;
+ margin: 0px 0px 4px 24px;
 }
 .rvps61
 {
- page-break-after: avoid;
- margin: 0px 0px 0px 48px;
+ margin: 0px 0px 10px 0px;
 }
 .rvps62
 {
  page-break-after: avoid;
+ margin: 0px 0px 0px 48px;
 }
 .rvps63
 {
  page-break-after: avoid;
- margin: 10px 0px 0px 0px;
 }
 .rvps64
+{
+ page-break-after: avoid;
+ margin: 10px 0px 0px 0px;
+}
+.rvps65
 {
  text-indent: -24px;
  padding: 0px 0px 0px 24px;
 }
-.rvps65
-{
- page-break-after: avoid;
- margin: 0px 0px 13px 0px;
-}
 .rvps66
 {
- margin: 0px 0px 13px 0px;
+ margin: 0px 0px 10px 120px;
 }
 .rvps67
 {
  page-break-after: avoid;
- margin: 10px 0px 10px 0px;
+ margin: 0px 0px 13px 0px;
 }
 .rvps68
+{
+ margin: 0px 0px 13px 0px;
+}
+.rvps69
+{
+ page-break-after: avoid;
+ margin: 10px 0px 10px 0px;
+}
+.rvps70
 {
  text-align: left;
  text-indent: 0px;
@@ -1239,7 +1247,7 @@ p,ul,ol /* Paragraph Style */
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
 }
-.rvps69
+.rvps71
 {
  margin: 0px 0px 20px 14px;
 }

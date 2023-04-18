@@ -299,8 +299,8 @@ div#main > article .navigation .nav-arrows a:focus:hover {
             <div class="main-content">
                 
 <h2 class="rvps7"><span class="rvts0"><span class="rvts33">The following issues have been resolved as of the most recent general (v2.10.5.8) and prior releases.&nbsp;</span></span></h2>
-<p class="rvps2"><span class="rvts6">The full details of each internal development release is included here for reference, but all the following are included in the </span><span class="rvts21">v2.10.5.8</span><span class="rvts6"> General release / v2.10.5.13 Beta release.</span></p>
-<p class="rvps10"><span class="rvts24">Note</span><span class="rvts6">: Issues prefixed with the </span><span class="rvts24">ß</span><span class="rvts6">: are only available in the most recent beta release (</span><span class="rvts24">ß </span><span class="rvts6">v2.10.5.13). For example, </span><span class="rvts24">ß</span><span class="rvts6">:BBL-761.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">The full details of each internal development release is included here for reference, but all the following are included in the </span><span class="rvts21">v2.10.5.8</span><span class="rvts6"> General release / v2.10.5.14 Beta release.</span></p>
+<p class="rvps10"><span class="rvts24">Note</span><span class="rvts6">: Issues prefixed with the </span><span class="rvts24">ß</span><span class="rvts6">: are only available in the most recent beta release (</span><span class="rvts24">ß </span><span class="rvts6">v2.10.5.14). For example, </span><span class="rvts24">ß</span><span class="rvts6">:BBL-761.&nbsp;</span></p>
 <p class="rvps2"><span class="rvts30">The following issues have been resolved in the v2.10.5.n:</span></p>
 <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
  <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
@@ -341,7 +341,29 @@ div#main > article .navigation .nav-arrows a:focus:hover {
    <li class="rvps2"><span class="rvts69">Changed label on jobs log from “Projects added” so it now reads “Projects processed.”</span></li>
    <li class="rvps2"><span class="rvts69">Problems experienced when uploading via a job using a low bandwidth connection. This has been resolved by the 64-bit release.</span></li>
   </ul>
+  <li style="margin-left: 0px" class="rvps16"><span class="rvts64">BBL-822: </span><span class="rvts65">Jobs</span><span class="rvts64">:</span><span class="rvts43"> When running </span><span class="rvts61">Reactivate Token Refresh Job</span><span class="rvts43">, </span><span class="rvts60">Naviate Cloud Manager</span><span class="rvts42"> </span><span class="rvts43">previously assumed the </span><span class="rvts61">Token Refresh Job</span><span class="rvts43"> displayed in the Jobs library was also present and functional in the Windows Task Manager. However, it has been reported that this is sometimes not the case. To address this situation, </span><span class="rvts61">Reactivate Token Refresh Job</span><span class="rvts43">, in addition to guaranteeing a valid refresh token, now also verifies the </span><span class="rvts61">Token Refresh Job</span><span class="rvts43"> exists in the Windows Task Manager and, if not, creates it.&nbsp;</span></li>
+ </ul>
+</ul>
+<p class="rvps24"><span class="rvts42">Please Note</span><span class="rvts43"> — Depending on the user's granted access rights and permissions, when attempting to add a new </span><span class="rvts61">Token Refresh Job</span><span class="rvts43"> to the Windows Task Manager, the following message may appear:</span></p>
+<p class="rvps24"><span class="rvts43">&nbsp;</span><img alt="" style="padding : 20px;" src="lib/NewItem2958.png"></p>
+<p class="rvps24"><span class="rvts43">When this happens, do the following:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;">
+ <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+  <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+   <ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;">
+    <li style="margin-left: 0px" class="rvps25"><span class="rvts43">Exit from </span><span class="rvts60">Naviate Cloud Manager</span><span class="rvts43">.</span></li>
+    <li style="margin-left: 0px" class="rvps25"><span class="rvts43">Right-click on the </span><span class="rvts60">Naviate Cloud Manager</span><span class="rvts43"> shortcut or menu item and choose, </span><span class="rvts61">Run as administrator</span><span class="rvts43">.</span></li>
+    <li style="margin-left: 0px" class="rvps25"><span class="rvts43">Go to the </span><span class="rvts42">Jobs</span><span class="rvts43"> module and run </span><span class="rvts61">Reactivate Token Refresh Job</span><span class="rvts43"> again on the same </span><span class="rvts61">Token Refresh Job</span><span class="rvts43">. It should now succeed.</span></li>
+    <li style="margin-left: 0px" class="rvps25"><span class="rvts43">Exit from </span><span class="rvts60">Naviate Cloud Manager</span><span class="rvts43"> and then run it again as usual.</span></li>
+   </ol>
+  </ol>
+ </ol>
+</ol>
+<p class="rvps26"><span class="rvts43">Please refer to the </span><span class="rvts61">User Guide</span><span class="rvts43"> for a general discussion regarding </span><a class="rvts74" href="TokenRefreshJobs1.html">Token Refresh Jobs</a><span class="rvts43">, as well as more detailed information relating to the </span><a class="rvts74" href="ReactivateTokenRefreshJob.html">Reactivate Token Refresh Job</a><a class="rvts71" href="ReactivateTokenRefreshJob.html"> </a><span class="rvts43">functionality.&nbsp;</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;">
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
   <li class="rvps2"><span class="rvts51">BBL-755: </span><span class="rvts54">Browse</span><span class="rvts51">:</span><span class="rvts54"> </span><span class="rvts51">Identified and resolved issue relating to canceling Download. Previously, if download was canceled, the main menu did not re-enable, or the progress bar reset itself.</span></li>
+  <li style="margin-left: 0px" class="rvps16"><span class="rvts64">BBL-817: </span><span class="rvts65">Browse</span><span class="rvts64">: </span><span class="rvts43">When logged on with a </span><span class="rvts61">Custom Connection</span><span class="rvts43"> and displaying an </span><span class="rvts61">ACC</span><span class="rvts43"> project, extra, inaccessible top-level folders were being displayed, such as </span><span class="rvts61">correspondence-project-6956843d-79ab-4224-8a19-ddfb5713d7d3</span><span class="rvts43"> and </span><span class="rvts61">quantification_6956843d-79ab-4224-8a19-ddfb5713d7d3</span><span class="rvts43"> were being displayed. These have now been removed from both </span><span class="rvts42">Browse</span><span class="rvts43"> and the </span><span class="rvts42">Files</span><span class="rvts43"> BIM360 project display functionality.</span></li>
  </ul>
 </ul>
 <p class="rvps13"><span class="rvts30">The following issues have been resolved in the v2.10.4 release:</span></p>
