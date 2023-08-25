@@ -89,25 +89,29 @@ a.rvts15, span.rvts15
 span.rvts16
 {
  font-size: 11pt;
-}
-span.rvts17
-{
- font-size: 11pt;
  font-weight: bold;
 }
-span.rvts18
+span.rvts17
 {
  font-size: 12pt;
  font-weight: bold;
  color: #000000;
  text-decoration: underline;
 }
-span.rvts19
+span.rvts18
 {
+}
+a.rvts19, span.rvts19
+{
+ text-decoration: none;
 }
 a.rvts20, span.rvts20
 {
- text-decoration: none;
+ font-size: 14pt;
+ font-style: italic;
+ font-weight: bold;
+ color: #0000ff;
+ text-decoration: underline;
 }
 a.rvts21, span.rvts21
 {
@@ -117,34 +121,30 @@ a.rvts21, span.rvts21
  color: #0000ff;
  text-decoration: underline;
 }
-a.rvts22, span.rvts22
+span.rvts22
 {
- font-size: 14pt;
- font-style: italic;
- font-weight: bold;
- color: #0000ff;
- text-decoration: underline;
+ color: ;
 }
 span.rvts23
 {
- color: ;
-}
-span.rvts24
-{
  font-weight: bold;
  color: ;
 }
-span.rvts25
+span.rvts24
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
  color: ;
 }
-span.rvts26
+span.rvts25
 {
  font-style: italic;
  color: ;
+}
+span.rvts26
+{
+ font-weight: bold;
 }
 span.rvts27
 {
@@ -152,61 +152,62 @@ span.rvts27
 }
 span.rvts28
 {
- font-weight: bold;
-}
-span.rvts29
-{
  font-style: italic;
 }
-span.rvts30
+span.rvts29
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-a.rvts31, span.rvts31
+a.rvts30, span.rvts30
 {
  color: #0000ff;
  text-decoration: underline;
 }
+span.rvts31
+{
+ color: #000000;
+}
 span.rvts32
 {
+ font-weight: bold;
  color: #000000;
 }
 span.rvts33
 {
- font-weight: bold;
- color: #000000;
+ color: #333333;
 }
 span.rvts34
 {
- color: #333333;
-}
-span.rvts35
-{
  color: #000000;
 }
-span.rvts36
+span.rvts35
 {
  font-weight: bold;
  color: #000000;
 }
-span.rvts37
+span.rvts36
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
+span.rvts37
+{
+ color: #000000;
+ background-color: #ffffff;
+}
 span.rvts38
 {
+ font-weight: bold;
  color: #000000;
  background-color: #ffffff;
 }
 span.rvts39
 {
+ font-style: italic;
  font-weight: bold;
- color: #000000;
- background-color: #ffffff;
 }
 span.rvts40
 {
@@ -411,22 +412,17 @@ span.rvts77
 }
 span.rvts78
 {
- font-style: italic;
- font-weight: bold;
-}
-span.rvts79
-{
  font-size: 11pt;
  font-weight: bold;
 }
-span.rvts80
+span.rvts79
 {
  font-size: 12pt;
  font-style: italic;
  font-weight: bold;
  color: #000000;
 }
-span.rvts81
+span.rvts80
 {
  font-size: 11pt;
  font-style: italic;
