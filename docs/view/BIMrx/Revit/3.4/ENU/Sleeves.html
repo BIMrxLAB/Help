@@ -7,7 +7,7 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="HelpNDoc Standard Edition 8.3.1.337">
+  <meta name="generator" content="HelpNDoc Standard Edition 8.9.0.604">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="favicon.ico"/>
 
@@ -17,6 +17,7 @@
 
 
 
+  
   
 
   <!-- Twitter Card data -->
@@ -179,6 +180,8 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
 
 
+  
+
   <div id="skip-link">
     <a href="#main-content" class="element-invisible">Skip to main content</a>
   </div>
@@ -195,8 +198,8 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <nav id="panel-left" class="md-nav-expanded">
     <!-- Nav tabs -->
     <ul class="tab-tabs nav nav-tabs" role="tablist">
-      <li id="nav-close"> 
-        <button class="hnd-toggle btn btn-default">
+      <li id="nav-close" role="presentation"> 
+        <button class="hnd-toggle btn btn-default" aria-label="close">
           <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
         </button>
       </li>
@@ -252,9 +255,9 @@ div#main > article .navigation .nav-arrows a:focus:hover {
             <form id="search-form">
               <div class="form-group">
                 <div class="input-group">
-                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." aria-label="Search..." />
                   <span class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
+                    <button class="btn btn-default" type="submit" aria-label="Search...">
                       <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                     </button>
                   </span>
@@ -287,7 +290,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
                         <li><a href="NaviateFabrication.html">Naviate Fabrication</a></li>
                     </ol>
                     <div class="nav-arrows">
-                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="NaviateFabrication.html" title="Naviate Fabrication" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="SwapRodLength.html" title="Swap Rod Length" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="FloorSleeves.html" title="Floor Sleeves" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="NaviateFabrication.html" title="Naviate Fabrication" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="SwapRodLength.html" title="Swap Rod Length" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SleeveOptions.html" title="Sleeve Options" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
                     </div>
                 </div> 
             
@@ -298,26 +301,31 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p class="rvps2"><span class="rvts18">NAVIATE Fabrication</span><span class="rvts6"> tab &gt;&gt; </span><span class="rvts18">Fab Model</span><span class="rvts6"> panel &gt;&gt; </span><span class="rvts18">Sleeve Placement</span><span class="rvts6"> drop-down button list.</span></p>
+<p class="rvps13"><span class="rvts37">NAVIATE Fabrication</span><span class="rvts36">&nbsp;tab &gt;&gt;&nbsp;</span><span class="rvts37">Fab Model</span><span class="rvts36">&nbsp;panel &gt;&gt;&nbsp;</span><span class="rvts37">Sleeve Placement</span><span class="rvts36">&nbsp;drop-down button list.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><img alt="" style="vertical-align: text-top; padding : 1px;" src="lib/NewItem2125.png"><img alt="" style="padding : 1px;" src="lib/NewItem2126.png"></p>
+<p class="rvps2"><span class="rvts6">Sleeves are compacted in the Ribbon into several features. &nbsp;They are accessible by selecting the DropDown button in the Palette.&nbsp;</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">The Sleeve Placement features helps placing sleeve family instances at MEP elements penetrations through walls and floors.</span></p>
+<p class="rvps2"><span class="rvts18">Sleeve Options</span><span class="rvts6"> – Location to preset all sleeve population sizes, model mapping, and parameter population&nbsp;</span></p>
+<p class="rvps2"><span class="rvts18">Wall Sleeves</span><span class="rvts6"> – Feature used to execute placement of wall sleeves against model elements</span></p>
+<p class="rvps2"><span class="rvts18">Floor / Roof Sleeves -</span><span class="rvts6"> Feature used to execute placement of floor/roof sleeves against model elements</span></p>
+<p class="rvps2"><span class="rvts18">Blockout Sleeves</span><span class="rvts6"> – Feature used to place a singular sleeve encompassing multiple elements</span></p>
+<p class="rvps2"><span class="rvts18">Manual Sleeves</span><span class="rvts6"> – Feature used to place individual sleeves on locations where no wall / floor / roof elements are present</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><img width="612" height="393" alt="" style="padding : 1px;" src="lib/NewItem2289.png"></p>
 <h5 class="rvps11"><span class="rvts0"><span class="rvts31">Prerequisites:</span></span></h5>
-<p class="rvps2"><span class="rvts6">This feature requires a set of sleeve families to be present in the default NAVIATE installation folder:</span></p>
+<p class="rvps2"><span class="rvts6">This feature requires a set of sleeve families to be present in the default NAVIATE installation folder. By default these will be installed and loaded into projects once the command is activated.</span></p>
 <p class="rvps2"><img width="548" height="353" alt="" style="padding : 1px;" src="lib/NewItem1136.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
 <p class="rvps2"><span class="rvts6">The Sleeve families are included in the default </span><span class="rvts18">NAVIATE setup</span><span class="rvts6">, under the </span><span class="rvts18">NAVIATE Revit Families</span><span class="rvts6"> options:</span></p>
 <p class="rvps2"><img width="557" height="436" alt="" style="padding : 1px;" src="lib/NewItem2127.png"></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6">When using the </span><span class="rvts18">Sleeve Placement</span><span class="rvts6"> commands, If these families were not present in the model, they &nbsp;will be automatically inserted.</span></p>
+<p class="rvps2"><span class="rvts6">When using the </span><span class="rvts18">Sleeve Placement</span><span class="rvts6"> commands, if these families were not present in the model, they will be automatically inserted.</span></p>
 <p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
-<p class="rvps2"><a class="rvts11" href="FloorSleeves.html">Floor Sleeves</a></p>
+<p class="rvps2"><a class="rvts11" href="SleeveOptions.html">Sleeve Options</a></p>
+<p class="rvps2"><a class="rvts11" href="FloorRoofSleeves.html">Floor Sleeves</a></p>
 <p class="rvps2"><a class="rvts11" href="WallSleeves.html">Wall Sleeves</a></p>
-<p class="rvps2"><a class="rvts11" href="Options.html">Options</a></p>
-<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><a class="rvts11" href="ManualSleeve.html">Single Sleeves</a></p>
+<p class="rvps2"><a class="rvts11" href="BlockOutSleeves.html">Sleeve Blockout</a></p>
 <p class="rvps2"><span class="rvts18"></span><span class="rvts6"></span></p>
 
             </div>
@@ -357,7 +365,7 @@ div#main > article .navigation .nav-arrows a:focus:hover {
   <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
   <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
   <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
-  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/uri-1.19.11/uri.min.js"></script>
   <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
   <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
   <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
