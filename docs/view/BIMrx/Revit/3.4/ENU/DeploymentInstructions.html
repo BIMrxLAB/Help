@@ -301,47 +301,47 @@ div#main > article .navigation .nav-arrows a:focus:hover {
 
             <div class="main-content">
                 
-<p class="rvps12"><span class="rvts29">To run the installer in quiet mode from the&nbsp;</span><span class="rvts30">command</span><span class="rvts29">&nbsp;line use:</span></p>
+<p class="rvps12"><span class="rvts31">To run the installer in quiet mode from the&nbsp;</span><span class="rvts32">command</span><span class="rvts31">&nbsp;line use:</span></p>
+<p class="rvps12"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts36">msiexec.exe /i "Naviate Core.MEP.Fabrication - V 3.4.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=ALL</span></p>
 <p class="rvps12"><span class="rvts31">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts34">msiexec.exe /i "Naviate Core.MEP.Fabrication - V 3.4.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=ALL</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">If you don’t use the ADDLOCAL=ALL option then you may run into an issue:</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">The features in the latest BIMrx install are listed on this installer page:</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">If you don’t use the ADDLOCAL=ALL option then you may run into an issue:</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">The features in the latest BIMrx install are listed on this installer page:</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
 <p class="rvps2"><img width="346" height="271" alt="" style="padding : 1px;" src="lib/NewItem1848.png"></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">You can trigger an update for ALL the features from the&nbsp;</span><span class="rvts30">command</span><span class="rvts29">&nbsp;line by running the following&nbsp;</span><span class="rvts30">command</span><span class="rvts29">:</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts34">msiexec.exe /i "Naviate Core.MEP.Fabrication - V 3.4.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=ALL</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">To install only a subset of the features you can use</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts35">msiexec.exe /i "Microdesk BIMrx - V 3.2.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=&lt;List of comma delimited features&gt;</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">The features you can use are;</span></p>
-<p class="rvps12"><span class="rvts34">Revit202019_</span></p>
-<p class="rvps12"><span class="rvts34">Revit202020_</span></p>
-<p class="rvps12"><span class="rvts34">Revit202021_</span></p>
-<p class="rvps12"><span class="rvts34">Revit202022_</span></p>
-<p class="rvps12"><span class="rvts34">Revit202023_</span></p>
-<p class="rvps12"><span class="rvts34">BIMrx20Revit20Families</span></p>
-<p class="rvps12"><span class="rvts34">BIMrx20Revit20Offline20Help</span></p>
-<p class="rvps12"><span class="rvts34">Sheet20View20Manager20Template</span></p>
-<p class="rvps12"><span class="rvts34">Fabrication20Template</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">E.g. to install ONLY BIMrx for Revit 2022 and 2023 you’d use</span></p>
-<p class="rvps12"><span class="rvts32">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts35">msiexec.exe /i "Naviate Core.MEP.Fabrication - V 3.4.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=Revit202022_,Revit2023_</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">Of course this will not include the Revit families and other features not listed in the ADDLOCAL parameter.</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">The best way probably is to use the ALL option.</span></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span></p>
-<p class="rvps12"><span class="rvts29">Some other options for the msiexec&nbsp;</span><span class="rvts30">command</span><span class="rvts29">&nbsp;can be found at:&nbsp;</span><a class="rvts33" href="https://eur03.safelinks.protection.outlook.com/?url=https://docs.microsoft.com/en-us/windows/win32/msi/addlocal&data=05%7C01%7Ckevin.phillips@symetri.com%7Ceb67655b21804aa888fd08db83e2de5a%7C8834f07755e64bc0ace0d4cbc22af0be%7C0%7C0%7C638248782657568789%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0=%7C3000%7C%7C%7C&sdata=EgZInu8kgR5v2%20j%204mxWT0pSq4cpe%20Jn7wsbRa6f0m0=&reserved=0">https://docs.microsoft.com/en-us/windows/win32/msi/addlocal</a></p>
-<p class="rvps12"><span class="rvts29">&nbsp;</span><span class="rvts6"></span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">You can trigger an update for ALL the features from the&nbsp;</span><span class="rvts32">command</span><span class="rvts31">&nbsp;line by running the following&nbsp;</span><span class="rvts32">command</span><span class="rvts31">:</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts36">msiexec.exe /i "Naviate Core.MEP.Fabrication - V 3.4.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=ALL</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">To install only a subset of the features you can use</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts37">msiexec.exe /i "</span><span class="rvts36">Naviate Core.MEP.Fabrication - V 3.4.msi</span><span class="rvts37">" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=&lt;List of comma delimited features&gt;</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">The features you can use are;</span></p>
+<p class="rvps12"><span class="rvts36">Revit202019_</span></p>
+<p class="rvps12"><span class="rvts36">Revit202020_</span></p>
+<p class="rvps12"><span class="rvts36">Revit202021_</span></p>
+<p class="rvps12"><span class="rvts36">Revit202022_</span></p>
+<p class="rvps12"><span class="rvts36">Revit202023_</span></p>
+<p class="rvps12"><span class="rvts36">BIMrx20Revit20Families</span></p>
+<p class="rvps12"><span class="rvts36">BIMrx20Revit20Offline20Help</span></p>
+<p class="rvps12"><span class="rvts36">Sheet20View20Manager20Template</span></p>
+<p class="rvps12"><span class="rvts36">Fabrication20Template</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">E.g. to install ONLY BIMrx for Revit 2022 and 2023 you’d use</span></p>
+<p class="rvps12"><span class="rvts34">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts37">msiexec.exe /i "Naviate Core.MEP.Fabrication - V 3.4.msi" ALLUSERS=1&nbsp; /q /norestart /log output.log ADDLOCAL=Revit202022_,Revit2023_</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">Of course this will not include the Revit families and other features not listed in the ADDLOCAL parameter.</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">The best way probably is to use the ALL option.</span></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span></p>
+<p class="rvps12"><span class="rvts31">Some other options for the msiexec&nbsp;</span><span class="rvts32">command</span><span class="rvts31">&nbsp;can be found at:&nbsp;</span><a class="rvts35" href="https://eur03.safelinks.protection.outlook.com/?url=https://docs.microsoft.com/en-us/windows/win32/msi/addlocal&data=05%7C01%7Ckevin.phillips@symetri.com%7Ceb67655b21804aa888fd08db83e2de5a%7C8834f07755e64bc0ace0d4cbc22af0be%7C0%7C0%7C638248782657568789%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0=%7C3000%7C%7C%7C&sdata=EgZInu8kgR5v2%20j%204mxWT0pSq4cpe%20Jn7wsbRa6f0m0=&reserved=0">https://docs.microsoft.com/en-us/windows/win32/msi/addlocal</a></p>
+<p class="rvps12"><span class="rvts31">&nbsp;</span><span class="rvts6"></span></p>
 
             </div>
             
