@@ -93,38 +93,37 @@ span.rvts16
 }
 span.rvts17
 {
+ font-weight: bold;
+}
+span.rvts18
+{
+ font-size: 14pt;
+ font-weight: bold;
+}
+span.rvts19
+{
+ color: #000000;
+}
+span.rvts20
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts21
+{
  font-size: 12pt;
  font-weight: bold;
  color: #000000;
  text-decoration: underline;
 }
-span.rvts18
+span.rvts22
 {
- font-weight: bold;
-}
-span.rvts19
-{
- font-size: 14pt;
- font-weight: bold;
-}
-span.rvts20
-{
- font-size: 14pt;
-}
-span.rvts21
-{
-}
-a.rvts22, span.rvts22
-{
- text-decoration: none;
 }
 a.rvts23, span.rvts23
 {
- font-size: 14pt;
- font-style: italic;
- font-weight: bold;
- color: #0000ff;
- text-decoration: underline;
+ text-decoration: none;
 }
 a.rvts24, span.rvts24
 {
@@ -134,36 +133,38 @@ a.rvts24, span.rvts24
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts25
+a.rvts25, span.rvts25
 {
- color: ;
+ font-size: 14pt;
+ font-style: italic;
+ font-weight: bold;
+ color: #0000ff;
+ text-decoration: underline;
 }
 span.rvts26
 {
- font-weight: bold;
  color: ;
 }
 span.rvts27
 {
- font-size: 11pt;
- font-style: italic;
  font-weight: bold;
  color: ;
 }
 span.rvts28
 {
+ font-size: 11pt;
  font-style: italic;
+ font-weight: bold;
  color: ;
 }
 span.rvts29
 {
- font-size: 11pt;
- font-family: 'calibri';
- color: #000000;
+ font-style: italic;
+ color: ;
 }
 span.rvts30
 {
- font-size: 12pt;
+ font-size: 11pt;
  font-family: 'calibri';
  color: #000000;
 }
@@ -171,191 +172,193 @@ span.rvts31
 {
  font-size: 12pt;
  font-family: 'calibri';
- color: #ff0000;
+ color: #000000;
 }
 span.rvts32
+{
+ font-size: 12pt;
+ font-family: 'calibri';
+ color: #ff0000;
+}
+span.rvts33
 {
  font-size: 11pt;
  font-family: 'calibri';
  font-weight: bold;
  color: #000000;
 }
-a.rvts33, span.rvts33
+a.rvts34, span.rvts34
 {
  font-size: 12pt;
  font-family: 'calibri';
  color: #0563c1;
  text-decoration: underline;
 }
-span.rvts34
-{
- font-size: 12pt;
- font-family: 'Calibri';
- font-weight: bold;
-}
 span.rvts35
 {
  font-size: 12pt;
  font-family: 'Calibri';
  font-weight: bold;
- color: #000000;
 }
 span.rvts36
 {
+ font-size: 12pt;
+ font-family: 'Calibri';
  font-weight: bold;
+ color: #000000;
 }
 span.rvts37
 {
- font-style: italic;
+ font-weight: bold;
 }
 span.rvts38
+{
+ font-style: italic;
+}
+span.rvts39
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-a.rvts39, span.rvts39
+a.rvts40, span.rvts40
 {
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts40
-{
- color: #000000;
-}
 span.rvts41
 {
- font-weight: bold;
  color: #000000;
 }
 span.rvts42
 {
- color: #333333;
+ font-weight: bold;
+ color: #000000;
 }
 span.rvts43
 {
- color: #000000;
+ color: #333333;
 }
 span.rvts44
+{
+ color: #000000;
+}
+span.rvts45
 {
  font-weight: bold;
  color: #000000;
 }
-span.rvts45
+span.rvts46
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-span.rvts46
-{
- color: #000000;
- background-color: #ffffff;
-}
 span.rvts47
 {
- font-weight: bold;
  color: #000000;
  background-color: #ffffff;
 }
 span.rvts48
 {
+ font-weight: bold;
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts49
+{
  font-style: italic;
  font-weight: bold;
 }
-span.rvts49
+span.rvts50
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
  color: #000000;
 }
-span.rvts50
+span.rvts51
 {
  font-size: 14pt;
  font-style: italic;
  font-weight: bold;
 }
-span.rvts51
+span.rvts52
 {
  font-style: italic;
  font-weight: bold;
  color: #000000;
 }
-span.rvts52
+span.rvts53
 {
  color: #000000;
  background-color: #ffffff;
 }
-span.rvts53
+span.rvts54
 {
  color: #ff0000;
 }
-span.rvts54
+span.rvts55
 {
  text-decoration: underline;
 }
-span.rvts55
+span.rvts56
 {
  font-weight: bold;
  color: #ff0000;
 }
-span.rvts56
+span.rvts57
 {
  font-size: 16pt;
  font-weight: bold;
  color: #000000;
 }
-span.rvts57
-{
- font-size: 12pt;
- color: #000000;
-}
 span.rvts58
 {
  font-size: 12pt;
- font-weight: bold;
  color: #000000;
 }
-a.rvts59, span.rvts59
+span.rvts59
 {
  font-size: 12pt;
  font-weight: bold;
  color: #000000;
- text-decoration: underline;
 }
 a.rvts60, span.rvts60
 {
  font-size: 12pt;
  font-weight: bold;
  color: #000000;
+ text-decoration: underline;
+}
+a.rvts61, span.rvts61
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
  text-decoration: none;
 }
-span.rvts61
+span.rvts62
 {
  font-size: 16pt;
  font-weight: bold;
 }
-span.rvts62
+span.rvts63
 {
  font-size: 11pt;
  font-family: 'Calibri';
 }
-span.rvts63
+span.rvts64
 {
  font-size: 16pt;
  font-weight: bold;
  color: #000000;
 }
-span.rvts64
+span.rvts65
 {
  font-family: 'roboto';
  color: #202124;
  background-color: #ffffff;
-}
-span.rvts65
-{
- font-family: 'Times New Roman', 'Times', serif;
 }
 span.rvts66
 {
@@ -363,74 +366,74 @@ span.rvts66
 }
 span.rvts67
 {
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts68
+{
  text-decoration: underline;
 }
-a.rvts68, span.rvts68
+a.rvts69, span.rvts69
 {
  color: #000000;
  text-decoration: none;
 }
-a.rvts69, span.rvts69
+a.rvts70, span.rvts70
 {
  font-weight: bold;
  color: #000000;
  text-decoration: none;
 }
-span.rvts70
+span.rvts71
 {
  font-size: 11pt;
  font-style: italic;
  font-weight: bold;
 }
-a.rvts71, span.rvts71
+a.rvts72, span.rvts72
 {
  font-weight: bold;
  color: #0000ff;
  text-decoration: underline;
 }
-span.rvts72
+span.rvts73
 {
  font-size: 11pt;
  font-family: 'Calibri';
  font-weight: bold;
 }
-span.rvts73
+span.rvts74
 {
  font-size: 8pt;
  color: #000000;
 }
-a.rvts74, span.rvts74
+a.rvts75, span.rvts75
 {
  font-size: 12pt;
  color: #000000;
  text-decoration: underline;
 }
-span.rvts75
+span.rvts76
 {
  font-family: Symbola, 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial', 'Helvetica', sans-serif;
 }
-span.rvts76
-{
- color: #172b4d;
- background-color: #ffffff;
-}
 span.rvts77
 {
- font-weight: bold;
  color: #172b4d;
  background-color: #ffffff;
 }
 span.rvts78
 {
- font-size: 11pt;
- font-style: italic;
  font-weight: bold;
  color: #172b4d;
  background-color: #ffffff;
 }
 span.rvts79
 {
- color: #000000;
+ font-size: 11pt;
+ font-style: italic;
+ font-weight: bold;
+ color: #172b4d;
+ background-color: #ffffff;
 }
 span.rvts80
 {
@@ -808,19 +811,20 @@ p,ul,ol /* Paragraph Style */
  margin: 16px 0px 4px 0px;
 }
 /* ========== Lists ========== */
-.list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
-.list1 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;}
-.list2 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;}
-.list3 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;}
-.list4 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;}
-.list5 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;}
-.list6 {text-indent: 24px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
-.list7 {text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: disc;}
-.list8 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;}
-.list9 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;}
-.list10 {text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside;}
-.list11 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;}
-.list12 {text-indent: -24px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: disc;}
-.list13 {text-indent: -72px; padding: 0; margin: 0 0 0 96px; list-style-position: outside; list-style-type: circle;}
-.list14 {text-indent: 0px; padding: 0; margin: 0 0 0 -24px; list-style-position: outside; list-style-type: disc;}
-.list15 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: circle;}
+.list0 {text-indent: 0px; padding: 0; margin: 0 0 0 40px; list-style-position: outside;}
+.list1 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
+.list2 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;}
+.list3 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: square;}
+.list4 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;}
+.list5 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside;}
+.list6 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside;}
+.list7 {text-indent: 24px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
+.list8 {text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: disc;}
+.list9 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;}
+.list10 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;}
+.list11 {text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside;}
+.list12 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;}
+.list13 {text-indent: -24px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: disc;}
+.list14 {text-indent: -72px; padding: 0; margin: 0 0 0 96px; list-style-position: outside; list-style-type: circle;}
+.list15 {text-indent: 0px; padding: 0; margin: 0 0 0 -24px; list-style-position: outside; list-style-type: disc;}
+.list16 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: circle;}
